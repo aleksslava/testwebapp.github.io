@@ -117,13 +117,13 @@ const products = [
         "description": "Может использоваться в составе умного дома HiTE PRO или отдельно, в связке с выключателями и пультами",
         "modifications": [
             {
-                "id": "6-1",
+                "id": "234982357",
                 "name": "Белый",
                 "price": 3080.0,
                 "image": "https://static.tildacdn.com/stor3730-3161-4563-b162-346536643032/49671049.jpg"
             },
             {
-                "id": "6-2",
+                "id": "234361436643",
                 "name": "Черный",
                 "price": 3080.0,
                 "image": "https://static.tildacdn.com/stor3730-3161-4563-b162-346536643032/49671049.jpg"
