@@ -70,7 +70,32 @@ const products = [
         "image": "https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg",
         "category": "komplekt",
         "description": "Выключатель и реле – протестируйте Хайт Про у себя дома",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "296594",
+                "name": "Белый",
+                "price": 2980.0,
+                "image": "https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg"
+            },
+            {
+                "id": "296596",
+                "name": "Бежевый",
+                "price": 2980.0,
+                "image": "https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg"
+            },
+            {
+                "id": "296598",
+                "name": "Белый с Relay-F",
+                "price": 2980.0,
+                "image": "https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg"
+            },
+            {
+                "id": "296600",
+                "name": "Бежевый с Relay-F",
+                "price": 2980.0,
+                "image": "https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg"
+            }
+        ]
     },
     {
         "id": 2,
@@ -79,7 +104,56 @@ const products = [
         "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
         "category": "komplekt",
         "description": "Комплект для первого знакомства с устройствами HiTE PRO",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "296440",
+                "name": "Белый с датчиком Smart Water",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296442",
+                "name": "Бежевый с датчиком Smart Water",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296720",
+                "name": "Белый с датчиком Smart Air",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296714",
+                "name": "Бежевый с датчиком Smart Air",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296724",
+                "name": "Белый с датчиком Smart Checker",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296718",
+                "name": "Бежевый с датчиком Smart Checker",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296722",
+                "name": "Белый с датчиком Smart Motion",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            },
+            {
+                "id": "296716",
+                "name": "Бежевый с датчиком Smart Motion",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png"
+            }
+        ]
     },
     {
         "id": 3,
@@ -87,8 +161,15 @@ const products = [
         "price": 6000.0,
         "image": "https://static.tildacdn.com/stor3832-3263-4465-a262-303764333265/35976172.png",
         "category": "other",
-        "description": "Осталось 3 места. Оффлайн-интенсив за 1 день. Идеально подойдёт тем, у кого ещё нет или совсем мало опыта в работе с HiTE PRO.",
-        "modifications": []
+        "description": "Осталось 10 мест. Оффлайн-интенсив за 1 день. Идеально подойдёт тем, у кого ещё нет или совсем мало опыта в работе с HiTE PRO.",
+        "modifications": [
+            {
+                "id": "300012",
+                "name": "Билет на живое обучение в шоуруме HiTE PRO 27 сентября",
+                "price": 6000.0,
+                "image": "https://static.tildacdn.com/stor3832-3263-4465-a262-303764333265/35976172.png"
+            }
+        ]
     },
     {
         "id": 4,
@@ -97,7 +178,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor3335-3962-4232-a163-353032383535/78693873.jpg",
         "category": "komplekt",
         "description": "Печатный каталог альбомной ориентации. Дарим 1 каталог за каждые 5000 руб суммы заказа.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "286248",
+                "name": "Каталог HiTE PRO",
+                "price": 1.0,
+                "image": "https://static.tildacdn.com/stor3335-3962-4232-a163-353032383535/78693873.jpg"
+            }
+        ]
     },
     {
         "id": 5,
@@ -106,7 +194,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor3461-3031-4532-b539-366236666236/68601724.png",
         "category": "server",
         "description": "Используется для беспроводного управления электроприборами через приложение HiTE PRO",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207338",
+                "name": "Сервер умного дома Gateway",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/stor3461-3031-4532-b539-366236666236/68601724.png"
+            }
+        ]
     },
     {
         "id": 6,
@@ -137,7 +232,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Подключается в разрыв фазы и к существующему обычному выключателю",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "206954",
+                "name": "Одноканальное радиореле Relay-F1",
+                "price": 3480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 8,
@@ -146,7 +248,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Подключается в разрыв фазы и к существующему обычному выключателю",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207042",
+                "name": "Двухканальное радиореле Relay-F2",
+                "price": 4980.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 9,
@@ -157,25 +266,25 @@ const products = [
         "description": "Подключается к светильнику или другому прибору, которым нужно управлять",
         "modifications": [
             {
-                "id": "9-1",
+                "id": "206748",
                 "name": "220 В",
                 "price": 3080.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "9-2",
+                "id": "208984",
                 "name": "12 В",
                 "price": 3080.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "9-3",
+                "id": "208972",
                 "name": "12 В (сухой контакт)",
                 "price": 3080.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "9-4",
+                "id": "206940",
                 "name": "220 В (сухой контакт)",
                 "price": 3080.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
@@ -191,13 +300,13 @@ const products = [
         "description": "Подключается к светильнику или другому прибору, которым нужно управлять",
         "modifications": [
             {
-                "id": "10-1",
+                "id": "206750",
                 "name": "220 В",
                 "price": 4780.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "10-2",
+                "id": "206942",
                 "name": "220 В (сухой контакт)",
                 "price": 4780.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
@@ -211,7 +320,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3530-6662-4763-a233-653838303239/015-HTPR.png",
         "category": "switch",
         "description": "Предназначен для дистанционного управления радиореле HiTE PRO<br /><br />",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "276676",
+                "name": "Пульт ДУ DST-1",
+                "price": 1480.0,
+                "image": "https://static.tildacdn.com/tild3530-6662-4763-a233-653838303239/015-HTPR.png"
+            }
+        ]
     },
     {
         "id": 12,
@@ -220,7 +336,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3031-6261-4265-b335-393135636437/016-HTPR_1.png",
         "category": "switch",
         "description": "Предназначен для дистанционного управления радиореле HiTE PRO<br /><br />",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "274770",
+                "name": "Пульт ДУ DST-4",
+                "price": 1980.0,
+                "image": "https://static.tildacdn.com/tild3031-6261-4265-b335-393135636437/016-HTPR_1.png"
+            }
+        ]
     },
     {
         "id": 13,
@@ -229,7 +352,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "switch",
         "description": "Подключается к традиционному выключателю и делает его беспроводным",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207094",
+                "name": "Трехканальный радиомодуль UNI",
+                "price": 1980.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 14,
@@ -238,7 +368,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "datchiki",
         "description": "Отправляет радиосигнал при подаче и при снятии напряжения с его клемм<br /><br />",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "209170",
+                "name": "Датчик питания Smart Power",
+                "price": 2480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 15,
@@ -249,25 +386,25 @@ const products = [
         "description": "Relay-Drive 220В - Используется для беспроводного управления электроприводами переменного тока.\nRelay-Drive 12В - Используется для беспроводного управления электроприводами постоянного тока.\n",
         "modifications": [
             {
-                "id": "15-1",
+                "id": "207052",
                 "name": "220В",
                 "price": 3980.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "15-2",
+                "id": "207140",
                 "name": "12В",
                 "price": 3980.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "15-3",
+                "id": "208982",
                 "name": "220В (сухой контакт)",
                 "price": 3980.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
             },
             {
-                "id": "15-4",
+                "id": "208980",
                 "name": "12В (сухой контакт)",
                 "price": 3980.0,
                 "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
@@ -281,7 +418,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6463-6231-4164-b366-643964316661/smartm.jpg",
         "category": "datchiki",
         "description": "Предоставляет информацию об уровне освещенности и движениях людей в помещении",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207054",
+                "name": "Датчик движения и освещенности Smart Motion",
+                "price": 3280.0,
+                "image": "https://static.tildacdn.com/tild6463-6231-4164-b366-643964316661/smartm.jpg"
+            }
+        ]
     },
     {
         "id": 17,
@@ -290,7 +434,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6266-3938-4565-b863-656632393366/sma.jpg",
         "category": "datchiki",
         "description": "Предоставляет информацию о температуре и влажности помещения<br /><br />",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207056",
+                "name": "Датчик температуры и влажности Smart Air",
+                "price": 2980.0,
+                "image": "https://static.tildacdn.com/tild6266-3938-4565-b863-656632393366/sma.jpg"
+            }
+        ]
     },
     {
         "id": 18,
@@ -299,7 +450,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6164-6332-4233-b461-373132663764/check.jpg",
         "category": "datchiki",
         "description": "Позволяет контролировать положение (открыто или закрыто) подвижных элементов",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "206966",
+                "name": "Датчик открытия Smart Checker",
+                "price": 1980.0,
+                "image": "https://static.tildacdn.com/tild6164-6332-4233-b461-373132663764/check.jpg"
+            }
+        ]
     },
     {
         "id": 19,
@@ -310,13 +468,13 @@ const products = [
         "description": "Совместим с рамками Legrand серии Etika",
         "modifications": [
             {
-                "id": "19-1",
+                "id": "207090",
                 "name": "Слоновая кость",
                 "price": 1480.0,
                 "image": "https://static.tildacdn.com/tild3962-6133-4966-b731-656337656262/2le-1.jpg"
             },
             {
-                "id": "19-2",
+                "id": "207044",
                 "name": "Белый",
                 "price": 1480.0,
                 "image": "https://static.tildacdn.com/tild3232-6365-4663-a162-393230323539/1le-1.jpg"
@@ -332,13 +490,13 @@ const products = [
         "description": "Совместим с рамками Legrand серии Etika",
         "modifications": [
             {
-                "id": "20-1",
+                "id": "207050",
                 "name": "Слоновая кость",
                 "price": 1780.0,
                 "image": "https://static.tildacdn.com/tild6562-3535-4637-b562-313032663962/le-22.jpg"
             },
             {
-                "id": "20-2",
+                "id": "207092",
                 "name": "Белый",
                 "price": 1780.0,
                 "image": "https://static.tildacdn.com/tild6637-3537-4232-b866-343238343761/1le-2.jpg"
@@ -352,7 +510,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3134-6363-4436-b562-303038303564/JCXP_3m_RG174_SMA750.jpg",
         "category": "relay",
         "description": "Дополнительная внешняя антенна для блока Relay-4M<br /><br />",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207088",
+                "name": "Антенна для Relay-4M",
+                "price": 980.0,
+                "image": "https://static.tildacdn.com/tild3134-6363-4436-b562-303038303564/JCXP_3m_RG174_SMA750.jpg"
+            }
+        ]
     },
     {
         "id": 22,
@@ -361,7 +526,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Блок с функцией диммирования для светодиодных лент 12/24В",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "210526",
+                "name": "Одноканальное радиореле Relay-LED",
+                "price": 3480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 23,
@@ -370,7 +542,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6134-3834-4832-b163-323039653438/Smart_Water1.png",
         "category": "datchiki",
         "description": "Беспроводной передатчик, позволяющий определять наличие и отсутствие протечки воды.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "210496",
+                "name": "Датчик протечки воды Smart Water",
+                "price": 2980.0,
+                "image": "https://static.tildacdn.com/tild6134-3834-4832-b163-323039653438/Smart_Water1.png"
+            }
+        ]
     },
     {
         "id": 24,
@@ -379,7 +558,20 @@ const products = [
         "image": "https://static.tildacdn.com/tild3662-3564-4163-a631-616664323864/hybrid-box.jpg",
         "category": "antenna",
         "description": "nan",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "206754",
+                "name": "TS-9",
+                "price": 8140.0,
+                "image": "https://static.tildacdn.com/tild3662-3564-4163-a631-616664323864/hybrid-box.jpg"
+            },
+            {
+                "id": "279368",
+                "name": "CRC-9",
+                "price": 8140.0,
+                "image": "https://static.tildacdn.com/tild3662-3564-4163-a631-616664323864/hybrid-box.jpg"
+            }
+        ]
     },
     {
         "id": 25,
@@ -388,7 +580,20 @@ const products = [
         "image": "https://static.tildacdn.com/tild3336-3461-4630-a664-643939333437/duo-box.jpg",
         "category": "antenna",
         "description": "nan",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "279366",
+                "name": "CRC-9",
+                "price": 10340.0,
+                "image": "https://static.tildacdn.com/tild3336-3461-4630-a664-643939333437/duo-box.jpg"
+            },
+            {
+                "id": "206928",
+                "name": "TS-9",
+                "price": 10340.0,
+                "image": "https://static.tildacdn.com/tild3336-3461-4630-a664-643939333437/duo-box.jpg"
+            }
+        ]
     },
     {
         "id": 26,
@@ -397,7 +602,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6461-6566-4131-a533-653932303664/cabel-sma-sma.jpg",
         "category": "antenna",
         "description": "nan",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "210478",
+                "name": "Кабельная сборка SMA-SMA",
+                "price": 1100.0,
+                "image": "https://static.tildacdn.com/tild6461-6566-4131-a533-653932303664/cabel-sma-sma.jpg"
+            }
+        ]
     },
     {
         "id": 27,
@@ -406,7 +618,20 @@ const products = [
         "image": "https://static.tildacdn.com/tild3733-6439-4735-b031-323238626664/pigtail.jpg",
         "category": "antenna",
         "description": "nan",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207428",
+                "name": "CRC-9",
+                "price": 400.0,
+                "image": "https://static.tildacdn.com/tild3733-6439-4735-b031-323238626664/pigtail.jpg"
+            },
+            {
+                "id": "277678",
+                "name": "TS-9",
+                "price": 400.0,
+                "image": "https://static.tildacdn.com/tild3733-6439-4735-b031-323238626664/pigtail.jpg"
+            }
+        ]
     },
     {
         "id": 28,
@@ -415,7 +640,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3339-6633-4939-b539-373261656265/usb-udlin-10m.jpg",
         "category": "antenna",
         "description": "nan",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "207542",
+                "name": "USB-удлинитель на 5 метров",
+                "price": 490.0,
+                "image": "https://static.tildacdn.com/tild3339-6633-4939-b539-373261656265/usb-udlin-10m.jpg"
+            }
+        ]
     },
     {
         "id": 29,
@@ -426,19 +658,19 @@ const products = [
         "description": "Шаровой кран марки Neptun с электроприводом серии Buggati PRO для блокировки водоснабжения",
         "modifications": [
             {
-                "id": "29-1",
+                "id": "224584",
                 "name": " Bugatti Pro 220В - 1/2",
                 "price": 8361.0,
                 "image": "https://static.tildacdn.com/tild3539-3032-4536-b632-643838323039/1.png"
             },
             {
-                "id": "29-2",
+                "id": "224586",
                 "name": "Bugatti Pro 220В - 3/4",
                 "price": 8991.0,
                 "image": "https://static.tildacdn.com/tild3539-3032-4536-b632-643838323039/1.png"
             },
             {
-                "id": "29-3",
+                "id": "224598",
                 "name": "Bugatti Pro 220В - 1",
                 "price": 11961.0,
                 "image": "https://static.tildacdn.com/tild3539-3032-4536-b632-643838323039/1.png"
@@ -454,19 +686,19 @@ const products = [
         "description": "Шаровой кран марки Neptun с электроприводом серии Buggati PRO для блокировки водоснабжения",
         "modifications": [
             {
-                "id": "30-1",
+                "id": "224594",
                 "name": " Bugatti Pro 12В - 1/2",
                 "price": 8991.0,
                 "image": "https://static.tildacdn.com/tild6234-6135-4731-b334-393033633335/2.png"
             },
             {
-                "id": "30-2",
+                "id": "224586",
                 "name": "Bugatti Pro 12В - 3/4",
                 "price": 9531.0,
                 "image": "https://static.tildacdn.com/tild6234-6135-4731-b334-393033633335/2.png"
             },
             {
-                "id": "30-3",
+                "id": "224596",
                 "name": "Bugatti Pro 12В - 1",
                 "price": 10791.0,
                 "image": "https://static.tildacdn.com/tild6234-6135-4731-b334-393033633335/2.png"
@@ -482,25 +714,25 @@ const products = [
         "description": "Шаровой кран марки Neptun с электроприводом серии PROFI для блокировки водоснабжения",
         "modifications": [
             {
-                "id": "31-1",
+                "id": "224608",
                 "name": "PROFI 220В - 1/2",
                 "price": 7641.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
             },
             {
-                "id": "31-2",
+                "id": "224606",
                 "name": "PROFI 220В - 3/4",
                 "price": 8451.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
             },
             {
-                "id": "31-3",
+                "id": "224592",
                 "name": "PROFI 220В - 1",
                 "price": 9531.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
             },
             {
-                "id": "31-4",
+                "id": "224612",
                 "name": "PROFI 220В - 1 1/4",
                 "price": 10161.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
@@ -516,25 +748,25 @@ const products = [
         "description": "Шаровой кран марки Neptun с электроприводом серии PROFI для блокировки водоснабжения",
         "modifications": [
             {
-                "id": "32-1",
+                "id": "224616",
                 "name": "PROFI 12В - 1/2",
                 "price": 7191.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
             },
             {
-                "id": "32-2",
+                "id": "224590",
                 "name": "PROFI 12В - 3/4",
                 "price": 7641.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
             },
             {
-                "id": "32-3",
+                "id": "224614",
                 "name": "PROFI 12В - 1",
                 "price": 9531.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
             },
             {
-                "id": "32-4",
+                "id": "224600",
                 "name": "PROFI 12В - 1 1/4",
                 "price": 10161.0,
                 "image": "https://static.tildacdn.com/tild6133-3133-4631-b033-336137323166/---64-455x455.png"
@@ -550,19 +782,19 @@ const products = [
         "description": "Шаровой кран марки Neptun с электроприводом серии МК для блокировки водоснабжения",
         "modifications": [
             {
-                "id": "33-1",
+                "id": "224604",
                 "name": "MK 220В - 1/2",
                 "price": 5481.0,
                 "image": "https://static.tildacdn.com/tild6135-6133-4166-b563-363938353635/---65-455x455.png"
             },
             {
-                "id": "33-2",
+                "id": "224588",
                 "name": "MK 220В - 3/4",
                 "price": 5931.0,
                 "image": "https://static.tildacdn.com/tild6135-6133-4166-b563-363938353635/---65-455x455.png"
             },
             {
-                "id": "33-3",
+                "id": "224610",
                 "name": "MK 220В - 1",
                 "price": 7191.0,
                 "image": "https://static.tildacdn.com/tild6135-6133-4166-b563-363938353635/---65-455x455.png"
@@ -578,13 +810,13 @@ const products = [
         "description": "Шаровой кран марки Neptun с электроприводом серии МК для блокировки водоснабжения",
         "modifications": [
             {
-                "id": "34-1",
+                "id": "224618",
                 "name": "MK 12В - 1/2",
                 "price": 5481.0,
                 "image": "https://static.tildacdn.com/tild6135-6133-4166-b563-363938353635/---65-455x455.png"
             },
             {
-                "id": "34-2",
+                "id": "224620",
                 "name": "MK 12В - 3/4",
                 "price": 5931.0,
                 "image": "https://static.tildacdn.com/tild6135-6133-4166-b563-363938353635/---65-455x455.png"
@@ -598,7 +830,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor3162-3465-4830-b330-366230666235/93883933.png",
         "category": "komplekt",
         "description": "Отлично подходит для презентации выключателей HiTE PRO!",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "225982",
+                "name": "Демонстрационный набор",
+                "price": 10880.0,
+                "image": "https://static.tildacdn.com/stor3162-3465-4830-b330-366230666235/93883933.png"
+            }
+        ]
     },
     {
         "id": 36,
@@ -607,7 +846,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor3861-3766-4238-b135-386335383633/36501679.png",
         "category": "komplekt",
         "description": "Собранный и настроенный экспонат для демонстрации работы устройств HiTE PRO",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "209812",
+                "name": "Демонстрационный стенд",
+                "price": 48180.0,
+                "image": "https://static.tildacdn.com/stor3861-3766-4238-b135-386335383633/36501679.png"
+            }
+        ]
     },
     {
         "id": 37,
@@ -618,37 +864,37 @@ const products = [
         "description": "Цену уточняйте с менеджером",
         "modifications": [
             {
-                "id": "37-1",
+                "id": "266210",
                 "name": "Novo N21 - 1 м",
                 "price": 0.0,
                 "image": "https://static.tildacdn.com/tild6366-3363-4532-a439-623965646531/N21_1.png"
             },
             {
-                "id": "37-2",
+                "id": "266210",
                 "name": "Novo N21 - 2 м",
                 "price": 0.0,
                 "image": "https://static.tildacdn.com/tild6366-3363-4532-a439-623965646531/N21_1.png"
             },
             {
-                "id": "37-3",
+                "id": "266210",
                 "name": "Novo N21 - 3 м",
                 "price": 0.0,
                 "image": "https://static.tildacdn.com/tild6366-3363-4532-a439-623965646531/N21_1.png"
             },
             {
-                "id": "37-4",
+                "id": "266210",
                 "name": "Novo N21 - 4 м",
                 "price": 0.0,
                 "image": "https://static.tildacdn.com/tild6366-3363-4532-a439-623965646531/N21_1.png"
             },
             {
-                "id": "37-5",
+                "id": "266210",
                 "name": "Novo N21 - 5 м",
                 "price": 0.0,
                 "image": "https://static.tildacdn.com/tild6366-3363-4532-a439-623965646531/N21_1.png"
             },
             {
-                "id": "37-6",
+                "id": "266210",
                 "name": "Novo N21 - 6 м",
                 "price": 0.0,
                 "image": "https://static.tildacdn.com/tild6366-3363-4532-a439-623965646531/N21_1.png"
@@ -662,7 +908,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3236-6365-4932-b331-376534386130/5ad95401d809d.jpg",
         "category": "karniz",
         "description": "Цену уточняйте с менеджером",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "299196",
+                "name": "Внутривальный электропривод для рулонных штор Novo K35-TP-6-28",
+                "price": 0.0,
+                "image": "https://static.tildacdn.com/tild3236-6365-4932-b331-376534386130/5ad95401d809d.jpg"
+            }
+        ]
     },
     {
         "id": 39,
@@ -671,7 +924,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Блок с функцией диммирования для светодиодных ламп 220В.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "206924",
+                "name": "Одноканальное радиореле Relay-DIM",
+                "price": 3480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 40,
@@ -680,7 +940,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3038-6438-4332-b836-326335333465/HiTE_PRO_CASE-1_11.png",
         "category": "relay",
         "description": "Slave-блок модульной системы – зависимое устройство.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "276780",
+                "name": "Трёхканальный блок радиореле Relay-LED3S",
+                "price": 8980.0,
+                "image": "https://static.tildacdn.com/tild3038-6438-4332-b836-326335333465/HiTE_PRO_CASE-1_11.png"
+            }
+        ]
     },
     {
         "id": 41,
@@ -691,19 +958,19 @@ const products = [
         "description": "Круглый и компактный выключатель",
         "modifications": [
             {
-                "id": "41-1",
+                "id": "276786",
                 "name": "Черный",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3761-6534-4132-b134-333731313636/---36-455x455.png"
             },
             {
-                "id": "41-2",
+                "id": "276784",
                 "name": "Белый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3632-6366-4637-a262-663161323231/---33-455x455.png"
             },
             {
-                "id": "41-3",
+                "id": "276782",
                 "name": "Алюминиевый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild6233-3335-4939-a434-613164666465/---34-455x455.png"
@@ -717,7 +984,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6539-3532-4363-a166-656566656465/A25DE53A5D1ABF6D4182.jpg",
         "category": "other",
         "description": "Двухмодульный контактор",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "276872",
+                "name": "Контактор модульный КМ 63А 2NО",
+                "price": 3277.0,
+                "image": "https://static.tildacdn.com/tild6539-3532-4363-a166-656566656465/A25DE53A5D1ABF6D4182.jpg"
+            }
+        ]
     },
     {
         "id": 43,
@@ -728,25 +1002,25 @@ const products = [
         "description": "nan",
         "modifications": [
             {
-                "id": "43-1",
+                "id": "276876",
                 "name": "220 В - Нормально-Закрытый",
                 "price": 1800.0,
                 "image": "https://static.tildacdn.com/tild3662-3837-4733-b664-376162326139/VTTE30430_2.jpg"
             },
             {
-                "id": "43-2",
+                "id": "276878",
                 "name": "24 В - Нормально-Закрытый",
                 "price": 1800.0,
                 "image": "https://static.tildacdn.com/tild3662-3837-4733-b664-376162326139/VTTE30430_2.jpg"
             },
             {
-                "id": "43-3",
+                "id": "276874",
                 "name": "220 В - Нормально-Открытый",
                 "price": 1800.0,
                 "image": "https://static.tildacdn.com/tild3662-3837-4733-b664-376162326139/VTTE30430_2.jpg"
             },
             {
-                "id": "43-4",
+                "id": "276880",
                 "name": "24 В - Нормально-Открытый",
                 "price": 1800.0,
                 "image": "https://static.tildacdn.com/tild3662-3837-4733-b664-376162326139/VTTE30430_2.jpg"
@@ -762,25 +1036,25 @@ const products = [
         "description": "nan",
         "modifications": [
             {
-                "id": "44-1",
+                "id": "276892",
                 "name": "Прямой - 1/2",
                 "price": 1148.0,
                 "image": "https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg"
             },
             {
-                "id": "44-2",
+                "id": "276886",
                 "name": "Угловой - 1/2",
                 "price": 1127.0,
                 "image": "https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg"
             },
             {
-                "id": "44-3",
+                "id": "276890",
                 "name": "Прямой - 3/4",
                 "price": 1470.0,
                 "image": "https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg"
             },
             {
-                "id": "44-4",
+                "id": "276888",
                 "name": "Угловой - 3/4",
                 "price": 1807.0,
                 "image": "https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg"
@@ -794,7 +1068,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3366-3034-4462-b563-313665666636/65-1-1.png",
         "category": "switch",
         "description": "Уровень влагозащиты IP-65. Корпус от ЭРА",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "279722",
+                "name": "Влагозащищённый одноклавишный радиовыключатель IP65-1",
+                "price": 3780.0,
+                "image": "https://static.tildacdn.com/tild3366-3034-4462-b563-313665666636/65-1-1.png"
+            }
+        ]
     },
     {
         "id": 46,
@@ -803,7 +1084,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6462-6139-4535-a432-616238373764/65-2-1.png",
         "category": "switch",
         "description": "Уровень влагозащиты IP-65. Корпус от ЭРА",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "279724",
+                "name": "Влагозащищённый двухклавишный радиовыключатель IP65-2",
+                "price": 3980.0,
+                "image": "https://static.tildacdn.com/tild6462-6139-4535-a432-616238373764/65-2-1.png"
+            }
+        ]
     },
     {
         "id": 47,
@@ -812,7 +1100,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6165-3763-4163-b039-306463646139/1.png",
         "category": "relay",
         "description": "Master-блок модульной системы – самостоятельное устройство.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "206944",
+                "name": "Relay-4m",
+                "price": 9980.0,
+                "image": "https://static.tildacdn.com/tild6165-3763-4163-b039-306463646139/1.png"
+            }
+        ]
     },
     {
         "id": 48,
@@ -823,67 +1118,67 @@ const products = [
         "description": "Закругленные углы",
         "modifications": [
             {
-                "id": "48-1",
+                "id": "206964",
                 "name": "Бежевый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3430-6632-4437-b630-653565393064/sk-snr1.jpg"
             },
             {
-                "id": "48-2",
+                "id": "207032",
                 "name": "Черный",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3734-3963-4030-b061-373235646263/bl-snr1.jpg"
             },
             {
-                "id": "48-3",
+                "id": "207034",
                 "name": "Белый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3933-6263-4530-b537-623737303932/wh-snr1.jpg"
             },
             {
-                "id": "48-4",
+                "id": "207108",
                 "name": "Алюминиевый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild6132-6138-4930-b431-663731656662/al_snr1.jpg"
             },
             {
-                "id": "48-5",
+                "id": "207068",
                 "name": "Серый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild6339-6339-4737-b534-353631336335/ser_snr1.jpg"
             },
             {
-                "id": "48-6",
+                "id": "207076",
                 "name": "Графит",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3963-6237-4234-b033-346535393032/graf_snr1.jpg"
             },
             {
-                "id": "48-7",
+                "id": "207064",
                 "name": "Слоновая кость",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3039-6664-4166-b864-326237353564/slon_snr1.jpg"
             },
             {
-                "id": "48-8",
+                "id": "206968",
                 "name": "Светло-серый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild6232-3238-4661-b435-333966323737/svser_snr1.jpg"
             },
             {
-                "id": "48-9",
+                "id": "207072",
                 "name": "Серо-голубой",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild6131-3036-4666-a230-633064633439/svgol_snr1.jpg"
             },
             {
-                "id": "48-10",
+                "id": "207112",
                 "name": "Светло-коричневый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3335-6431-4431-b362-353736666666/svkor_snr1.jpg"
             },
             {
-                "id": "48-11",
+                "id": "207116",
                 "name": "Темно-коричневый",
                 "price": 2980.0,
                 "image": "https://static.tildacdn.com/tild3961-6462-4664-b563-356262636238/temnkor_snr1.jpg"
@@ -897,7 +1192,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor6637-3664-4366-a136-363733363839/52026992.jpg",
         "category": "komplekt",
         "description": "Печатная брошюра для клиентов, в которой можно указать свои контакты",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "286416",
+                "name": "Брошюра HiTE PRO",
+                "price": 10.0,
+                "image": "https://static.tildacdn.com/stor6637-3664-4366-a136-363733363839/52026992.jpg"
+            }
+        ]
     },
     {
         "id": 50,
@@ -906,7 +1208,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6165-3763-4163-b039-306463646139/1.png",
         "category": "relay",
         "description": "Модификация блока 4M с измерением потребляемой мощности",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "290030",
+                "name": "Четырёхканальный блок радиореле Relay-4M(P)",
+                "price": 12980.0,
+                "image": "https://static.tildacdn.com/tild6165-3763-4163-b039-306463646139/1.png"
+            }
+        ]
     },
     {
         "id": 51,
@@ -915,7 +1224,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3038-6438-4332-b836-326335333465/HiTE_PRO_CASE-1_11.png",
         "category": "relay",
         "description": "Модификация блока 4S с измерением потребляемой мощности",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "290032",
+                "name": "Четырёхканальный блок радиореле Relay-4S(P)",
+                "price": 11980.0,
+                "image": "https://static.tildacdn.com/tild3038-6438-4332-b836-326335333465/HiTE_PRO_CASE-1_11.png"
+            }
+        ]
     },
     {
         "id": 52,
@@ -926,25 +1242,25 @@ const products = [
         "description": "Одноканальный беспроводной выключатель без фиксации клавиши (звонкового типа).<br /><br />Работает от одной батарейки более 7 лет. Частота 868 МГц, на которой работает выключатель, позволяет управлять освещением на расстоянии до 250 м.<br /><br />При выборе выключателя с рамкой используется рамка Schneider Atlas. Рамки IEK Brite приобретаются только отдельно.<br /><br />Устанавливается на любую поверхность с помощью двустороннего скотча или саморезов.<br /><br />Для работы выключателя обязательно необходим блок управления. Радиовыключатель является передатчиком, который передает сигнал блоку управления на замыкание и размыкание электрической цепи.<br /><br /><br />Технический паспорт:<br /><a href=\"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf</a>",
         "modifications": [
             {
-                "id": "52-1",
+                "id": "293048",
                 "name": "Белый",
                 "price": 1780.0,
                 "image": "https://static.tildacdn.com/stor3865-3435-4331-a331-633732333863/24952004.png"
             },
             {
-                "id": "52-2",
+                "id": "293050",
                 "name": "Бежевый",
                 "price": 1780.0,
                 "image": "https://static.tildacdn.com/stor3863-6463-4066-a361-396535343664/11513905.png"
             },
             {
-                "id": "52-3",
+                "id": "293052",
                 "name": "Серый (грифель)",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor3433-3338-4739-a539-656435383164/91248115.png"
             },
             {
-                "id": "52-4",
+                "id": "293054",
                 "name": "Черный (карбон)",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor6238-6232-4561-b666-336332626430/88521061.png"
@@ -960,25 +1276,25 @@ const products = [
         "description": "Двухканальный беспроводной выключатель без фиксации клавиши (звонкового типа).<br /><br />Работает от одной батарейки более 7 лет. Частота 868 МГц, на которой работает выключатель, позволяет управлять освещением на расстоянии до 250 м.<br /><br />При выборе выключателя с рамкой используется рамка Schneider Atlas. Рамки IEK Brite приобретаются только отдельно.<br /><br />Устанавливается на любую поверхность с помощью двустороннего скотча или саморезов.<br /><br />Для работы выключателя обязательно необходим блок управления. Радиовыключатель является передатчиком, который передает сигнал блоку управления на замыкание и размыкание электрической цепи.<br /><br /><br />Технический паспорт:<br /><a href=\"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf</a>",
         "modifications": [
             {
-                "id": "53-1",
+                "id": "293064",
                 "name": "Белый",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor3963-3065-4539-b033-336563363133/22799452.png"
             },
             {
-                "id": "53-2",
+                "id": "293066",
                 "name": "Бежевый",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor3963-3065-4539-b033-336563363133/22799452.png"
             },
             {
-                "id": "53-3",
+                "id": "293068",
                 "name": "Серый (грифель)",
                 "price": 2580.0,
                 "image": "https://static.tildacdn.com/stor3963-3065-4539-b033-336563363133/22799452.png"
             },
             {
-                "id": "53-4",
+                "id": "293070",
                 "name": "Черный (карбон)",
                 "price": 2580.0,
                 "image": "https://static.tildacdn.com/stor3963-3065-4539-b033-336563363133/22799452.png"
@@ -994,25 +1310,25 @@ const products = [
         "description": "Одноканальный беспроводной выключатель с фиксацией клавиши. <br /><u>НЕ ПОДХОДИТ ДЛЯ ДИММИРОВАНИЯ</u><br /><br />Работает от одной батарейки более 7 лет. Частота 868 МГц, на которой работает выключатель, позволяет управлять освещением на расстоянии до 250 м.<br /><br />При выборе выключателя с рамкой используется рамка Schneider Atlas. Рамки IEK Brite приобретаются только отдельно.<br /><br />Устанавливается на любую поверхность с помощью двустороннего скотча или саморезов.<br /><br />Для работы выключателя обязательно необходим блок управления. Радиовыключатель является передатчиком, который передает сигнал блоку управления на замыкание и размыкание электрической цепи.<br /><br /><br />Технический паспорт:<br /><a href=\"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf</a>",
         "modifications": [
             {
-                "id": "54-1",
+                "id": "293056",
                 "name": "Белый",
                 "price": 1780.0,
                 "image": "https://static.tildacdn.com/stor3865-3435-4331-a331-633732333863/24952004.png"
             },
             {
-                "id": "54-2",
+                "id": "293058",
                 "name": "Бежевый",
                 "price": 1780.0,
                 "image": "https://static.tildacdn.com/stor3863-6463-4066-a361-396535343664/11513905.png"
             },
             {
-                "id": "54-3",
+                "id": "293060",
                 "name": "Серый (грифель)",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor3433-3338-4739-a539-656435383164/91248115.png"
             },
             {
-                "id": "54-4",
+                "id": "293062",
                 "name": "Черный (карбон)",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor6238-6232-4561-b666-336332626430/88521061.png"
@@ -1028,25 +1344,25 @@ const products = [
         "description": "Двухканальный беспроводной выключатель с фиксацией клавиши. <br /><u>НЕ ПОДХОДИТ ДЛЯ ДИММИРОВАНИЯ</u><br /><br />Работает от одной батарейки более 7 лет. Частота 868 МГц, на которой работает выключатель, позволяет управлять освещением на расстоянии до 250 м.<br /><br />При выборе выключателя с рамкой используется рамка Schneider Atlas. Рамки IEK Brite приобретаются только отдельно.<br /><br />Устанавливается на любую поверхность с помощью двустороннего скотча или саморезов.<br /><br />Для работы выключателя обязательно необходим блок управления. Радиовыключатель является передатчиком, который передает сигнал блоку управления на замыкание и размыкание электрической цепи.<br /><br /><br />Технический паспорт:<br /><a href=\"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf</a>",
         "modifications": [
             {
-                "id": "55-1",
+                "id": "293072",
                 "name": "Белый",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor6462-6661-4165-b961-313961343935/48504921.png"
             },
             {
-                "id": "55-2",
+                "id": "293074",
                 "name": "Бежевый",
                 "price": 2180.0,
                 "image": "https://static.tildacdn.com/stor6462-6661-4165-b961-313961343935/48504921.png"
             },
             {
-                "id": "55-3",
+                "id": "293076",
                 "name": "Серый (грифель)",
                 "price": 2580.0,
                 "image": "https://static.tildacdn.com/stor6462-6661-4165-b961-313961343935/48504921.png"
             },
             {
-                "id": "55-4",
+                "id": "293078",
                 "name": "Черный (карбон)",
                 "price": 2580.0,
                 "image": "https://static.tildacdn.com/stor6462-6661-4165-b961-313961343935/48504921.png"
@@ -1060,7 +1376,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Компактный блок на 16 Ампер, подходит для теплого пола. Клеммники 2,5 мм2",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "296298",
+                "name": "Одноканальное радиореле Relay-16A",
+                "price": 3480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 57,
@@ -1069,7 +1392,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor3435-3430-4563-a365-396663306532/24429073.jpg",
         "category": "other",
         "description": "Проводной датчик Rexant для Relay-16A",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "296300",
+                "name": "Датчик температуры пола для Relay-16A",
+                "price": 500.0,
+                "image": "https://static.tildacdn.com/stor3435-3430-4563-a365-396663306532/24429073.jpg"
+            }
+        ]
     },
     {
         "id": 58,
@@ -1078,7 +1408,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild3038-6438-4332-b836-326335333465/HiTE_PRO_CASE-1_11.png",
         "category": "relay",
         "description": "Slave-блок модульной системы – зависимое устройство.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "206946",
+                "name": "Relay-4S",
+                "price": 3080.0,
+                "image": "https://static.tildacdn.com/tild3038-6438-4332-b836-326335333465/HiTE_PRO_CASE-1_11.png"
+            }
+        ]
     },
     {
         "id": 59,
@@ -1087,7 +1424,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Компактный блок для диммирования RGB и RGBW",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "296568",
+                "name": "Одноканальное радиореле Relay-RGBW",
+                "price": 3480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 60,
@@ -1096,7 +1440,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor3364-3036-4362-a562-386163633165/31780867.jpg",
         "category": "komplekt",
         "description": "Компактный стенд, который удобно брать с собой на встречи с заказчиками",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "296638",
+                "name": "Демонстрационный стенд Мини",
+                "price": 21990.0,
+                "image": "https://static.tildacdn.com/stor3364-3036-4362-a562-386163633165/31780867.jpg"
+            }
+        ]
     },
     {
         "id": 61,
@@ -1107,157 +1458,157 @@ const products = [
         "description": "Кабельный теплый пол под плитку и керамогранит (нагревательный мат)",
         "modifications": [
             {
-                "id": "61-1",
+                "id": "296910",
                 "name": "Caleo Supermat - 130 - 0,7",
                 "price": 5078.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-2",
+                "id": "296912",
                 "name": "Caleo Supermat - 130 - 1,2",
                 "price": 7946.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-3",
+                "id": "296914",
                 "name": "Caleo Supermat - 130 - 1,8",
                 "price": 8602.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-4",
+                "id": "296916",
                 "name": "Caleo Supermat - 130 - 2,4",
                 "price": 10754.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-5",
+                "id": "296918",
                 "name": "Caleo Supermat - 130 - 3",
                 "price": 11503.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-6",
+                "id": "296920",
                 "name": "Caleo Supermat - 130 - 3,6",
                 "price": 13375.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-7",
+                "id": "296922",
                 "name": "Caleo Supermat - 130 - 4,2",
                 "price": 15622.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-8",
+                "id": "296924",
                 "name": "Caleo Supermat - 130 - 5",
                 "price": 16745.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-9",
+                "id": "296926",
                 "name": "Caleo Supermat - 130 - 6",
                 "price": 18710.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-10",
+                "id": "296928",
                 "name": "Caleo Supermat - 130 - 7",
                 "price": 21425.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-11",
+                "id": "296930",
                 "name": "Caleo Supermat - 130 - 8",
                 "price": 23858.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-12",
+                "id": "296932",
                 "name": "Caleo Supermat - 130 - 10",
                 "price": 30598.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-13",
+                "id": "296934",
                 "name": "Caleo Supermat - 130 - 12",
                 "price": 37056.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-14",
+                "id": "296936",
                 "name": "Caleo Supermat - 200 - 0,7",
                 "price": 5840.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-15",
+                "id": "296938",
                 "name": "Caleo Supermat - 200 - 1,2",
                 "price": 9138.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-16",
+                "id": "296940",
                 "name": "Caleo Supermat - 200 - 1,8",
                 "price": 9892.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-17",
+                "id": "296942",
                 "name": "Caleo Supermat - 200 - 2,4",
                 "price": 12368.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-18",
+                "id": "296944",
                 "name": "Caleo Supermat - 200 - 3",
                 "price": 13229.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-19",
+                "id": "296946",
                 "name": "Caleo Supermat - 200 - 3,6",
                 "price": 15382.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-20",
+                "id": "296948",
                 "name": "Caleo Supermat - 200 - 4,2",
                 "price": 17965.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-21",
+                "id": "296950",
                 "name": "Caleo Supermat - 200 - 5",
                 "price": 19257.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-22",
+                "id": "296952",
                 "name": "Caleo Supermat - 200 - 6",
                 "price": 21518.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-23",
+                "id": "296954",
                 "name": "Caleo Supermat - 200 - 7",
                 "price": 24638.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-24",
+                "id": "296956",
                 "name": "Caleo Supermat - 200 - 8",
                 "price": 27438.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-25",
+                "id": "296958",
                 "name": "Caleo Supermat - 200 - 10",
                 "price": 35187.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
             },
             {
-                "id": "61-26",
+                "id": "296960",
                 "name": "Caleo Supermat - 200 - 12",
                 "price": 42614.0,
                 "image": "https://static.tildacdn.com/stor3331-6130-4461-b863-323939656465/90783921.jpg"
@@ -1273,55 +1624,55 @@ const products = [
         "description": "Саморегулируемый инфракрасный пленочный теплый пол под ламинат, паркет, линолеум и ковролин (термопленка)",
         "modifications": [
             {
-                "id": "62-1",
+                "id": "296892",
                 "name": "Caleo Platinum - 230 - 1",
                 "price": 5695.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-2",
+                "id": "296894",
                 "name": "Caleo Platinum - 230 - 1,5",
                 "price": 8324.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-3",
+                "id": "296896",
                 "name": "Caleo Platinum - 230 - 2",
                 "price": 11102.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-4",
+                "id": "296898",
                 "name": "Caleo Platinum - 230 - 2,5",
                 "price": 13879.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-5",
+                "id": "296900",
                 "name": "Caleo Platinum - 230 - 3",
                 "price": 16657.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-6",
+                "id": "296902",
                 "name": "Caleo Platinum - 230 - 3,5",
                 "price": 19435.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-7",
+                "id": "296904",
                 "name": "Caleo Platinum - 230 - 4",
                 "price": 22302.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-8",
+                "id": "296906",
                 "name": "Caleo Platinum - 230 - 5",
                 "price": 27767.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
             },
             {
-                "id": "62-9",
+                "id": "296908",
                 "name": "Caleo Platinum - 230 - 6",
                 "price": 33412.0,
                 "image": "https://static.tildacdn.com/stor3632-6232-4361-a131-656634393063/79914832.jpg"
@@ -1337,67 +1688,67 @@ const products = [
         "description": "Сверхтонкий кабельный теплый пол в бухте на основе двухжильного экранированного резистивного кабеля повышенной надежности",
         "modifications": [
             {
-                "id": "63-1",
+                "id": "297032",
                 "name": "Caleo Supercable - 10 - 180",
                 "price": 4994.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-2",
+                "id": "297034",
                 "name": "Caleo Supercable - 20 - 360",
                 "price": 7170.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-3",
+                "id": "297036",
                 "name": "Caleo Supercable - 30 - 540",
                 "price": 10434.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-4",
+                "id": "297038",
                 "name": "Caleo Supercable - 40 - 720",
                 "price": 13698.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-5",
+                "id": "297040",
                 "name": "Caleo Supercable - 50 - 900",
                 "price": 15547.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-6",
+                "id": "297042",
                 "name": "Caleo Supercable - 60 - 1080",
                 "price": 16962.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-7",
+                "id": "297044",
                 "name": "Caleo Supercable - 70 - 1260",
                 "price": 19355.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-8",
+                "id": "297046",
                 "name": "Caleo Supercable - 80 - 1440",
                 "price": 23272.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-9",
+                "id": "297048",
                 "name": "Caleo Supercable - 90 - 1620",
                 "price": 26536.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-10",
+                "id": "297050",
                 "name": "Caleo Supercable - 100 - 1800",
                 "price": 27842.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
             },
             {
-                "id": "63-11",
+                "id": "297052",
                 "name": "Caleo Supercable - 120 - 2160",
                 "price": 35349.0,
                 "image": "https://static.tildacdn.com/stor3435-6333-4866-a231-323166666561/87021772.jpg"
@@ -1413,13 +1764,13 @@ const products = [
         "description": "Wi-Fi встраиваемый, цифровой, программируемый, 3,5 кВт",
         "modifications": [
             {
-                "id": "64-1",
+                "id": "297070",
                 "name": "Белый",
                 "price": 10392.0,
                 "image": "https://static.tildacdn.com/stor3431-3131-4235-b936-636435313332/49049039.png"
             },
             {
-                "id": "64-2",
+                "id": "297090",
                 "name": "Черный",
                 "price": 10392.0,
                 "image": "https://static.tildacdn.com/stor3836-3361-4466-b837-656433306263/40479136.png"
@@ -1435,199 +1786,199 @@ const products = [
         "description": "Кабельный теплый пол под плитку и керамогранит (нагревательный мат)",
         "modifications": [
             {
-                "id": "65-1",
+                "id": "297084",
                 "name": "Caleo Easymat - 140 - 0,5",
                 "price": 3211.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-2",
+                "id": "297086",
                 "name": "Caleo Easymat - 140 - 0,7",
                 "price": 3504.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-3",
+                "id": "297098",
                 "name": "Caleo Easymat - 140 - 1",
                 "price": 3699.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-4",
+                "id": "297100",
                 "name": "Caleo Easymat - 140 - 1,2",
                 "price": 3797.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-5",
+                "id": "297102",
                 "name": "Caleo Easymat - 140 - 1,5",
                 "price": 4382.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-6",
+                "id": "297104",
                 "name": "Caleo Easymat - 140 - 1,8",
                 "price": 5066.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-7",
+                "id": "297106",
                 "name": "Caleo Easymat - 140 - 2",
                 "price": 5261.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-8",
+                "id": "297108",
                 "name": "Caleo Easymat - 140 - 2,4",
                 "price": 5846.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-9",
+                "id": "297110",
                 "name": "Caleo Easymat - 140 - 3",
                 "price": 7115.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-10",
+                "id": "297112",
                 "name": "Caleo Easymat - 140 - 3,6",
                 "price": 8091.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-11",
+                "id": "297114",
                 "name": "Caleo Easymat - 140 - 4",
                 "price": 8872.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-12",
+                "id": "297116",
                 "name": "Caleo Easymat - 140 - 4,2",
                 "price": 9165.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-13",
+                "id": "297118",
                 "name": "Caleo Easymat - 140 - 5",
                 "price": 10824.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-14",
+                "id": "297120",
                 "name": "Caleo Easymat - 140 - 6",
                 "price": 12386.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-15",
+                "id": "297122",
                 "name": "Caleo Easymat - 140 - 7",
                 "price": 13557.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-16",
+                "id": "297124",
                 "name": "Caleo Easymat - 140 - 8",
                 "price": 15021.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-17",
+                "id": "297126",
                 "name": "Caleo Easymat - 140 - 10",
                 "price": 20193.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-18",
+                "id": "297128",
                 "name": "Caleo Easymat - 140 - 12",
                 "price": 24000.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-19",
+                "id": "297130",
                 "name": "Caleo Easymat - 180 - 0,5",
                 "price": 3686.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-20",
+                "id": "297132",
                 "name": "Caleo Easymat - 180 - 1",
                 "price": 4241.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-21",
+                "id": "297134",
                 "name": "Caleo Easymat - 180 - 1,5",
                 "price": 5045.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-22",
+                "id": "297136",
                 "name": "Caleo Easymat - 180 - 2",
                 "price": 6074.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-23",
+                "id": "297138",
                 "name": "Caleo Easymat - 180 - 2,5",
                 "price": 6730.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-24",
+                "id": "297140",
                 "name": "Caleo Easymat - 180 - 3",
                 "price": 8157.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-25",
+                "id": "297142",
                 "name": "Caleo Easymat - 180 - 3,5",
                 "price": 9270.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-26",
+                "id": "297144",
                 "name": "Caleo Easymat - 180 - 4",
                 "price": 10193.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-27",
+                "id": "297146",
                 "name": "Caleo Easymat - 180 - 5",
                 "price": 12439.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-28",
+                "id": "297148",
                 "name": "Caleo Easymat - 180 - 6",
                 "price": 14189.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-29",
+                "id": "297150",
                 "name": "Caleo Easymat - 180 - 7",
                 "price": 15622.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-30",
+                "id": "297152",
                 "name": "Caleo Easymat - 180 - 8",
                 "price": 17306.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-31",
+                "id": "297154",
                 "name": "Caleo Easymat - 180 - 10",
                 "price": 23297.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-32",
+                "id": "297156",
                 "name": "Caleo Easymat - 180 - 12",
                 "price": 27696.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
             },
             {
-                "id": "65-33",
+                "id": "297158",
                 "name": "Caleo Easymat - 180 - 15",
                 "price": 33967.0,
                 "image": "https://static.tildacdn.com/stor3839-3761-4739-a337-653636626163/82125507.jpg"
@@ -1643,13 +1994,13 @@ const products = [
         "description": "Аналоговый, встраиваемый, 3,5 кВт",
         "modifications": [
             {
-                "id": "66-1",
+                "id": "297092",
                 "name": "Белый",
                 "price": 1813.0,
                 "image": "https://static.tildacdn.com/stor6433-3931-4063-b931-663539353731/26813793.jpg"
             },
             {
-                "id": "66-2",
+                "id": "297094",
                 "name": "Черный",
                 "price": 1813.0,
                 "image": "https://static.tildacdn.com/stor3936-3130-4264-b362-356466663833/39881704.jpg"
@@ -1663,7 +2014,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Компактный блок для управления 0/1-10 В.",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "297600",
+                "name": "Одноканальное радиореле Relay-0/1-10V",
+                "price": 3480.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 68,
@@ -1672,7 +2030,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor6438-3865-4134-a239-393034333538/46878414.jpg",
         "category": "relay",
         "description": "Любой компактный блок HiTE PRO можно установить на DIN-рейку или плоскость",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "298034",
+                "name": "Крепление для компактных блоков на DIN-рейку или плоскость",
+                "price": 250.0,
+                "image": "https://static.tildacdn.com/stor6438-3865-4134-a239-393034333538/46878414.jpg"
+            }
+        ]
     },
     {
         "id": 69,
@@ -1681,7 +2046,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Бесшумный блок – 1 канал – 1,5А • 230В",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "298768",
+                "name": "Одноканальное радиореле Relay-1Q",
+                "price": 3080.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 70,
@@ -1690,7 +2062,14 @@ const products = [
         "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
         "category": "relay",
         "description": "Бесшумный блок – 2 канала – каждый 1,5А • 230В",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "298770",
+                "name": "Двухканальное радиореле Relay-2Q",
+                "price": 4780.0,
+                "image": "https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg"
+            }
+        ]
     },
     {
         "id": 71,
@@ -1699,7 +2078,14 @@ const products = [
         "image": "https://static.tildacdn.com/stor6231-6230-4530-b363-616634393065/96510516.jpg",
         "category": "server",
         "description": "Аккуратно разместите сервер умного дома",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "299132",
+                "name": "Крепление для Gateway в розетку",
+                "price": 750.0,
+                "image": "https://static.tildacdn.com/stor6231-6230-4530-b363-616634393065/96510516.jpg"
+            }
+        ]
     },
     {
         "id": 72,
@@ -1710,25 +2096,25 @@ const products = [
         "description": "Сборный комплект устройств: 1-2 шаровых крана, блок управления, датчик протечки",
         "modifications": [
             {
-                "id": "72-1",
+                "id": "301066",
                 "name": "Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Bugatti - 2",
                 "price": 25540.0,
                 "image": "https://static.tildacdn.com/stor6431-3834-4162-b133-653538656133/55102437.jpg"
             },
             {
-                "id": "72-2",
+                "id": "301068",
                 "name": "Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Profi - 2",
                 "price": 23940.0,
                 "image": "https://static.tildacdn.com/stor6530-6464-4333-b036-643565356237/70060083.jpg"
             },
             {
-                "id": "72-3",
+                "id": "301062",
                 "name": "Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Bugatti - 1",
                 "price": 16250.0,
                 "image": "https://static.tildacdn.com/stor6431-3834-4162-b133-653538656133/55102437.jpg"
             },
             {
-                "id": "72-4",
+                "id": "301064",
                 "name": "Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Profi - 1",
                 "price": 15450.0,
                 "image": "https://static.tildacdn.com/stor6530-6464-4333-b036-643565356237/70060083.jpg"
@@ -1744,31 +2130,31 @@ const products = [
         "description": "Хлопковая футболка в стиле oversize",
         "modifications": [
             {
-                "id": "73-1",
+                "id": "301122",
                 "name": "темно-синяя - S",
                 "price": 1600.0,
                 "image": "https://static.tildacdn.com/stor3933-6134-4531-b262-343332666463/42512992.png"
             },
             {
-                "id": "73-2",
+                "id": "301124",
                 "name": "темно-синяя - M",
                 "price": 1600.0,
                 "image": "https://static.tildacdn.com/stor3933-6134-4531-b262-343332666463/42512992.png"
             },
             {
-                "id": "73-3",
+                "id": "301126",
                 "name": "темно-синяя - L",
                 "price": 1600.0,
                 "image": "https://static.tildacdn.com/stor3933-6134-4531-b262-343332666463/42512992.png"
             },
             {
-                "id": "73-4",
+                "id": "301128",
                 "name": "темно-синяя - XL",
                 "price": 1600.0,
                 "image": "https://static.tildacdn.com/stor3933-6134-4531-b262-343332666463/42512992.png"
             },
             {
-                "id": "73-5",
+                "id": "301130",
                 "name": "темно-синяя - XXL",
                 "price": 1600.0,
                 "image": "https://static.tildacdn.com/stor3933-6134-4531-b262-343332666463/42512992.png"
@@ -1782,25 +2168,46 @@ const products = [
         "image": "https://static.tildacdn.com/stor6436-3830-4866-a562-663532633337/28196858.jpg",
         "category": "other",
         "description": "Кепка регулируемая onesize",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "301948",
+                "name": "Кепка HiTE PRO темно-синяя",
+                "price": 1600.0,
+                "image": "https://static.tildacdn.com/stor6436-3830-4866-a562-663532633337/28196858.jpg"
+            }
+        ]
     },
     {
         "id": 75,
         "name": "Взломостойкий умный замок KEYWAY SL300",
-        "price": 23850,
+        "price": 23850.0,
         "image": "https://static.tildacdn.com/stor6166-3234-4233-b464-366337636437/99455674.jpg",
         "category": "lock",
         "description": "Получите персональный промокод на скидку 30%",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "306210",
+                "name": "Взломостойкий умный замок KEYWAY SL300",
+                "price": 23850.0,
+                "image": "https://static.tildacdn.com/stor6166-3234-4233-b464-366337636437/99455674.jpg"
+            }
+        ]
     },
     {
         "id": 76,
         "name": "Умный замок премиум-класса KEYWAY SL500",
-        "price": 47700,
+        "price": 47700.0,
         "image": "https://static.tildacdn.com/stor3466-6330-4939-a461-353530623633/88944724.jpg",
         "category": "lock",
         "description": "Получите персональный промокод на скидку 30%",
-        "modifications": []
+        "modifications": [
+            {
+                "id": "306212",
+                "name": "Умный замок премиум-класса KEYWAY SL500",
+                "price": 47700.0,
+                "image": "https://static.tildacdn.com/stor3466-6330-4939-a461-353530623633/88944724.jpg"
+            }
+        ]
     },
     {
         "id": 77,
@@ -1811,67 +2218,67 @@ const products = [
         "description": "Закругленные углы",
         "modifications": [
             {
-                "id": "77-1",
+                "id": "206972",
                 "name": "Бежевый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild3033-3931-4635-b532-303335346366/sk-snr2.jpg"
             },
             {
-                "id": "77-2",
+                "id": "207030",
                 "name": "Черный",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild3262-3164-4534-a439-336336656434/1snr2.jpg"
             },
             {
-                "id": "77-3",
+                "id": "207028",
                 "name": "Белый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild6239-6235-4630-a330-623030613064/wh-snr2.jpg"
             },
             {
-                "id": "77-4",
+                "id": "207110",
                 "name": "Алюминиевый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild3832-3761-4662-b466-323463323433/al_snr2.jpg"
             },
             {
-                "id": "77-5",
+                "id": "207070",
                 "name": "Серый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild6133-3535-4135-a237-643861336265/ser_snr2.jpg"
             },
             {
-                "id": "77-6",
+                "id": "207118",
                 "name": "Графит",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild6333-6436-4931-a534-653334646139/graf_snr2.jpg"
             },
             {
-                "id": "77-7",
+                "id": "207106",
                 "name": "Слоновая кость",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild6262-6439-4761-b434-613564613363/slon_snr2.jpg"
             },
             {
-                "id": "77-8",
+                "id": "207066",
                 "name": "Светло-серый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild6165-3734-4630-a337-613236366265/svser_snr2.jpg"
             },
             {
-                "id": "77-9",
+                "id": "206978",
                 "name": "Серо-голубой",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild3264-6461-4131-b066-316565653439/sergol_snr2.jpg"
             },
             {
-                "id": "77-10",
+                "id": "207114",
                 "name": "Светло-коричневый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild6364-3033-4637-b736-323735366237/svkor_snr2.jpg"
             },
             {
-                "id": "77-11",
+                "id": "207074",
                 "name": "Темно-коричневый",
                 "price": 3380.0,
                 "image": "https://static.tildacdn.com/tild3062-3861-4332-b161-613961393161/temnkor_snr2.jpg"
