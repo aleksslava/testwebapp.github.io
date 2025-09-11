@@ -2968,24 +2968,6 @@ function handleGenerateKp(e) {
 
     // Отправляем данные в Telegram бот
     sendToTelegramBot(kpPayload);
-
-    // Для демонстрации также показываем alert
-    let itemsList = "Товары в коммерческом предложении:\n";
-    kpPayload.items.forEach(item => {
-        let displayName = item.name;
-        if (item.modificationName) {
-            displayName += ` (${item.modificationName})`;
-        }
-        itemsList += `- ${displayName} x ${item.quantity} = ${item.total.toLocaleString('ru-RU')} ₽\n`;
-    });
-    let kpSummary = `${itemsList}\n---\n`;
-    kpSummary += `Итого: ${kpPayload.itemCount} товар(ов) на сумму ${kpPayload.total.toLocaleString('ru-RU')} ₽\n`;
-    kpSummary += `Ваши бонусы: ${kpPayload.bonuses.toLocaleString('ru-RU')}\n`;
-    if (kpPayload.userId) {
-        kpSummary += `ID пользователя: ${kpPayload.userId}\n`;
-    }
-    kpSummary += `Тип скидки: ${kpPayload.discountType}\n`;
-    kpSummary += "\nКоммерческое предложение сформировано и отправлено в бот!";
 }
     
     
