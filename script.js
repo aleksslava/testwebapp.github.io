@@ -2985,7 +2985,7 @@ function handleGenerateKp(e) {
         kpSummary += `ID пользователя: ${kpPayload.userId}\n`;
     }
     kpSummary += `Тип скидки: ${kpPayload.discountType}\n`;
-    kpSummary += "\nКоммерческое предложение сформировано и отправлено в бот!";
+    kpSummary += "\nЗапрос коммерческого предложения отправлен!";
     alert(kpSummary);
 }
 
@@ -3048,31 +3048,8 @@ function handleCheckout(e) {
     
     let orderSummary = `${itemsList}\n---\n`;
     orderSummary += `Итого: ${orderPayload.itemCount} товар(ов) на сумму ${orderPayload.total.toLocaleString('ru-RU')} ₽\n`;
-    orderSummary += `Ваши бонусы: ${orderPayload.bonuses.toLocaleString('ru-RU')}\n`;
-    if (orderPayload.userId) {
-        orderSummary += `ID пользователя: ${orderPayload.userId}\n`;
-    }
-    orderSummary += `Тип скидки: ${orderPayload.discountType}\n`;
-    orderSummary += `\nТелефон получателя: ${orderPayload.phone}\n`;
-    orderSummary += `Способ доставки: ${orderPayload.deliveryMethod}\n`;
-    if (orderPayload.deliveryAddress) {
-        orderSummary += `Адрес: ${orderPayload.deliveryAddress}\n`;
-    }
-    if (orderPayload.pickupAddress) {
-        orderSummary += `Адрес самовывоза: ${orderPayload.pickupAddress}\n`;
-    }
-    orderSummary += `Способ оплаты: ${orderPayload.paymentMethod}\n`;
-    if (orderPayload.paymentDiscountNote) {
-        orderSummary += `\n${orderPayload.paymentDiscountNote}\n`;
-    }
-    if (orderPayload.paymentMethod === 'Счет на оплату') {
-        orderSummary += `\n---\nДанные организации для счета:\n`;
-        orderSummary += `ИНН: ${orderPayload.organizationInn}\n`;
-        orderSummary += `Юридический адрес: ${orderPayload.organizationAddress}\n`;
-        orderSummary += `БИК: ${orderPayload.organizationBik}\n`;
-        orderSummary += `Расчетный счет: ${orderPayload.organizationAccount}\n`;
-    }
-    orderSummary += "\nЗаказ оформлен и отправлен в бот!";
+
+    orderSummary += "\nЗаказ передан на оформление!";
     alert(orderSummary);
     
     // Очищаем корзину и форму
