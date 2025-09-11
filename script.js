@@ -3032,21 +3032,6 @@ function handleCheckout(e) {
     // Отправляем данные в Telegram бот
     sendToTelegramBot(orderPayload);
     
-    // Для демонстрации также показываем alert
-    let itemsList = "Товары в заказе:\n";
-    orderPayload.items.forEach(item => {
-        let displayName = item.name;
-        if (item.modificationName) {
-            displayName += ` (${item.modificationName})`;
-        }
-        itemsList += `- ${displayName} x ${item.quantity} = ${item.total.toLocaleString('ru-RU')} ₽\n`;
-    });
-    
-    let orderSummary = `${itemsList}\n---\n`;
-    orderSummary += `Итого: ${orderPayload.itemCount} товар(ов) на сумму ${orderPayload.total.toLocaleString('ru-RU')} ₽\n`;
-
-    orderSummary += "\nЗаказ передан на оформление!";
-    alert(orderSummary);
     
     // Очищаем корзину и форму
     cart = [];
