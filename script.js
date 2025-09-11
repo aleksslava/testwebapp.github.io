@@ -2980,11 +2980,7 @@ function handleGenerateKp(e) {
     });
     let kpSummary = `${itemsList}\n---\n`;
     kpSummary += `Итого: ${kpPayload.itemCount} товар(ов) на сумму ${kpPayload.total.toLocaleString('ru-RU')} ₽\n`;
-    kpSummary += `Ваши бонусы: ${kpPayload.bonuses.toLocaleString('ru-RU')}\n`;
-    if (kpPayload.userId) {
-        kpSummary += `ID пользователя: ${kpPayload.userId}\n`;
-    }
-    kpSummary += `Тип скидки: ${kpPayload.discountType}\n`;
+    
     kpSummary += "\nЗапрос коммерческого предложения отправлен!";
     alert(kpSummary);
 }
