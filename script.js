@@ -2986,7 +2986,6 @@ function handleGenerateKp(e) {
     }
     kpSummary += `Тип скидки: ${kpPayload.discountType}\n`;
     kpSummary += "\nКоммерческое предложение сформировано и отправлено в бот!";
-    alert(kpSummary);
 }
     
     
