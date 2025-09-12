@@ -1075,3 +1075,123 @@ input, textarea {
         margin-right: 10px;
     }
 }
+
+/* --- Стили для модального окна с деталями --- */
+
+/* Селектор модификаций в деталях */
+#details-mod-selector-container {
+    margin-bottom: 20px;
+}
+
+#details-mod-selector-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Стили для вкладок */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid var(--color-border);
+    margin: 20px 0 15px 0;
+    padding: 0;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: color 0.3s;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--tg-theme-hint-color);
+    position: relative;
+}
+
+.tab-button:hover {
+    color: var(--tg-theme-text-color);
+}
+
+.tab-button.active {
+    color: var(--tg-theme-button-color);
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--tg-theme-button-color);
+}
+
+/* Содержимое вкладок */
+.tab-content {
+    /* Высота контента может варьироваться, поэтому не фиксируем */
+}
+
+.tab-pane {
+    display: none;
+    /* Добавим немного отступа сверху */
+    padding-top: 5px;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Стили для списка характеристик */
+.specs-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.specs-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.specs-list li:last-child {
+    border-bottom: none;
+}
+
+.spec-key {
+    font-weight: 500;
+}
+
+.spec-value {
+    /* Можно добавить стиль для значения, если нужно */
+}
+
+/* Стили для ссылок на инструкции */
+.instruction-link {
+    color: var(--tg-theme-link-color);
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.instruction-link:hover {
+    text-decoration: underline;
+}
+
+/* Адаптация под мобильные устройства для деталей */
+@media (max-width: 480px) {
+    .tabs {
+        margin: 15px 0 12px 0;
+    }
+
+    .tab-button {
+        padding: 8px 12px;
+        font-size: 0.95rem;
+    }
+
+    #details-mod-selector-container {
+        margin-bottom: 15px;
+    }
+}
