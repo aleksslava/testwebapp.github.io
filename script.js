@@ -17,10 +17,12 @@ function getUrlParams() {
     const urlParams = new URLSearchParams(window.location.search);
     const bonusParam = urlParams.get('bonus');
     const idParam = urlParams.get('id');
+    const discontParam = urlParams.get('discont'); // Новый параметр
     
     return {
         bonuses: bonusParam ? parseInt(bonusParam, 10) : 0,
-        userId: idParam || null // ID будет строкой или null, если не задан
+        userId: idParam || null, // ID будет строкой или null, если не задан
+         discont: discontParam ? parseFloat(discontParam) : 0 // Парсим как число с плавающей точкой
     };
 }
 
@@ -47,10 +49,15 @@ function sendToTelegramBot(data) {
 // --- Данные категорий ---
 const categories = [
     { id: 'all', name: 'Все товары' },
-    { id: 'electronics', name: 'Электроника' },
-    { id: 'clothing', name: 'Одежда' },
-    { id: 'books', name: 'Книги' },
-    { id: 'home', name: 'Дом' }
+    { id: 'relay', name: 'Блоки управления' },
+    { id: 'switch', name: 'Выключатели' },
+    { id: 'komplekt', name: 'Комплекты' },
+    { id: 'datchiki', name: 'Датчики' },
+    { id: 'server', name: 'Сервер умного дома' },
+    { id: 'warm_floor', name: 'Теплый пол' },
+    { id: 'lock', name: 'Умные замки' },
+    { id: 'kran', name: 'Шаровые краны' },
+    { id: 'other', name: 'Сопутствующее' },
 ];
 
 // --- Данные товаров с модификациями (без остатков), описанием, изображениями и деталями для модификаций ---
@@ -3124,6 +3131,9 @@ document.addEventListener('DOMContentLoaded', () => {
     urlParams = getUrlParams();
     // Отображаем бонусы из URL-параметров
     bonusValue.textContent = urlParams.bonuses.toLocaleString('ru-RU');
+    // Отображаем бонусы и скидку из URL-параметров
+    bonusValue.textContent = urlParams.bonuses.toLocaleString('ru-RU');
+    discontValue.textContent = urlParams.discont.toLocaleString('ru-RU'); // Отображаем скидку
 
     renderCategories();
     renderProducts();

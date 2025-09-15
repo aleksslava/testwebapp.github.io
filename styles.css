@@ -44,12 +44,13 @@ body {
 .header {
     /* Фон шапки как основной фон */
     background-color: var(--tg-theme-bg-color);
-    /* Отступы сверху/снизу, по бокам уже есть от body */
-    padding: 12px 0;
+    /* Отступы сверху/снизу, по бокам теперь padding у внутренних элементов или самого header */
+    /* Используем padding для создания отступов от краев экрана */
+    padding: 12px 8px; /* Вертикальный padding 12px, горизонтальный 8px */
     /* Flexbox для выравнивания заголовка и кнопки корзины */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Заголовок слева, кнопка справа */
+    align-items: center; /* Выравнивание по центру по вертикали */
     /* Нижняя граница вместо тени */
     border-bottom: 1px solid var(--color-border);
     /* Закрепляем сверху */
@@ -59,13 +60,53 @@ body {
     z-index: 100;
     /* Убираем скругления, они не характерны */
     border-radius: 0;
+    /* Убираем margin, так как padding задает отступы от краев */
+    margin: 0;
 }
 
+/* Уточняем стиль для заголовка h1 в шапке */
 .header h1 {
     font-size: 1.25rem; /* 20px */
     font-weight: 700; /* Жирный заголовок */
-    margin: 0; /* Убираем стандартные отступы */
-    padding: 0 8px; /* Небольшие отступы слева/справа */
+    margin: 0; /* Сброс всех внешних отступов, включая margin-left */
+    padding: 0; /* Сброс внутренних отступов */
+    /* padding: 0 8px; - эту строку можно удалить или закомментировать,
+       так как отступ теперь задается контейнеру .header */
+}
+
+/* --- Стиль для отображения бонусов --- */
+.bonuses-display {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--tg-theme-link-color); /* Используем цвет ссылки для выделения */
+    /* margin-top: 4px; - отступ сверху можно оставить или убрать */
+    margin: 0; /* Сброс всех внешних отступов, включая margin-left */
+}
+
+/* --- Стиль для отображения скидки партнера --- */
+.discont-display {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--tg-theme-link-color); /* Используем цвет ссылки для выделения */
+    margin: 2px 0 0 0; /* Небольшой отступ сверху от бонусов */
+}
+
+/* Адаптация под мобильные устройства для скидки */
+@media (max-width: 480px) {
+    .discont-display {
+        font-size: 0.85rem;
+    }
+}
+
+/* Адаптация под мобильные устройства для бонусов */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.1rem; /* При необходимости адаптируем размер */
+    }
+    .bonuses-display {
+        font-size: 0.85rem;
+         margin: 0; /* Убедиться, что margin сброшен */
+    }
 }
 
 /* --- Кнопка корзины --- */
@@ -1153,6 +1194,9 @@ input, textarea {
 .specs-list li {
     padding: 6px 0;
     border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between; /* Распределяет элементы по краям */
+    align-items: center; /* Выравнивает по центру по вертикали */
 }
 
 .specs-list li:last-child {
@@ -1161,11 +1205,15 @@ input, textarea {
 
 .spec-key {
     font-weight: 500;
+    /* Убираем фиксированную ширину и выравнивание текста */
 }
 
 .spec-value {
-    /* Можно добавить стиль для значения, если нужно */
+    /* text-align: right; - не нужно, так как flex сделает выравнивание */
+    /* Можно добавить минимальную ширину, если значения очень короткие */
+    /* min-width: 50px; */
 }
+
 
 /* Стили для ссылок на инструкции */
 .instruction-link {
