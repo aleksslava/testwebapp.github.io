@@ -3209,7 +3209,7 @@ function handleDeliveryMethodChange() {
     if (selectedMethod === 'courier' || selectedMethod === 'pickup_point') {
         deliveryAddressSection.style.display = 'block';
         if (selectedMethod === 'pickup_point') {
-            deliveryAddressNote.textContent = 'Выберите пункт выдачи СДЭК или Яндекс на карте.';
+            deliveryAddressNote.textContent = 'Введите адрес пункта выдачи СДЭК или Яндекс.';
         } else {
             deliveryAddressNote.textContent = '';
         }
@@ -3240,23 +3240,27 @@ function handlePaymentMethodChange() {
 // --- Обработчик изменения переключателя КП/Заказ ---
 function handleOrderTypeToggleChange() {
     if (orderTypeToggle.checked) {
+        // Если переключено в положение "Оформить заказ"
         orderFieldsSection.style.display = 'block';
         generateKpButton.style.display = 'none';
         checkoutButton.style.display = 'block';
+        // Меняем стили меток
         kpLabel.style.fontWeight = 'normal';
         kpLabel.style.color = 'var(--tg-theme-hint-color)';
         orderLabel.style.fontWeight = 'bold';
         orderLabel.style.color = 'var(--tg-theme-text-color)';
     } else {
+        // Если переключено в положение "Сформировать КП"
         orderFieldsSection.style.display = 'none';
         generateKpButton.style.display = 'block';
         checkoutButton.style.display = 'none';
+        // Меняем стили меток
         kpLabel.style.fontWeight = 'bold';
         kpLabel.style.color = 'var(--tg-theme-text-color)';
         orderLabel.style.fontWeight = 'normal';
         orderLabel.style.color = 'var(--tg-theme-hint-color)';
     }
-    resetCartFormFields();
+    // resetCartFormFields(); // Убираем вызов сброса полей из обработчика
 }
 
 // --- Рендеринг категорий ---
@@ -3655,7 +3659,9 @@ closeModal.addEventListener('click', (e) => {
 
 // --- Сброс формы корзины ---
 function resetCartForm() {
-    orderTypeToggle.checked = false;
+    // Устанавливаем переключатель в положение "Оформить заказ" (true)
+    orderTypeToggle.checked = true;
+    // Вызываем обработчик, чтобы обновить видимость полей и кнопок
     handleOrderTypeToggleChange();
     resetCartFormFields();
     // Сброс радио-кнопок на значение по умолчанию
