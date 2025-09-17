@@ -1191,27 +1191,39 @@ input, textarea {
     margin: 0;
 }
 
+/* Обновлённое правило для строки характеристики */
 .specs-list li {
     padding: 6px 0;
     border-bottom: 1px solid var(--color-border);
     display: flex;
-    justify-content: space-between; /* Распределяет элементы по краям */
-    align-items: center; /* Выравнивает по центру по вертикали */
+    /* justify-content: space-between; - убираем это */
+    align-items: center; /* Выравнивание по центру по вертикали */
 }
 
 .specs-list li:last-child {
     border-bottom: none;
 }
 
+/* Ключ (название) характеристики */
 .spec-key {
     font-weight: 500;
-    /* Убираем фиксированную ширину и выравнивание текста */
+    /* Заставляем ключ занимать всё оставшееся пространство */
+    flex-grow: 1;
+    /* Выравнивание текста ключа по левому краю */
+    text-align: left;
+    /* Предотвращаем перенос текста ключа, если это необходимо, или позволяяем перенос */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
 }
 
+/* Значение характеристики */
 .spec-value {
-    /* text-align: right; - не нужно, так как flex сделает выравнивание */
-    /* Можно добавить минимальную ширину, если значения очень короткие */
-    /* min-width: 50px; */
+    /* Выравнивание текста значения по правому краю */
+    text-align: right;
+    /* Можно добавить небольшой левый отступ, если значение слишком близко к ключу */
+    /* margin-left: 10px; */
+    /* white-space: nowrap; */ /* Предотвращает перенос значения */
 }
 
 
