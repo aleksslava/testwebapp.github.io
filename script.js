@@ -3817,7 +3817,7 @@ function handleGenerateKp(e) {
     }
     kpSummary += `Тип скидки: ${kpPayload.discountType}\n`;
     kpSummary += "\nКоммерческое предложение сформировано и отправлено в бот!";
-    alert(kpSummary);
+
 }
 
 // --- Обработчик кнопки "Оформить заказ" ---
@@ -3904,7 +3904,7 @@ function handleCheckout(e) {
         orderSummary += `Расчетный счет: ${orderPayload.organizationAccount}\n`;
     }
     orderSummary += "\nЗаказ оформлен и отправлен в бот!";
-    alert(orderSummary);
+
     
     // Очищаем корзину и форму
     cart = [];
