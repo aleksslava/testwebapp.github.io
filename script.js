@@ -75,36 +75,60 @@ const products = [
                 "name":"Белый",
                 "price":2980.0,
                 "image":"https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Блок управления":"Relay-1",
+                    "Выключатель":"Base-1 (белый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n1. Установите блок управления;\n2. Свяжите радиовыключатель с блоком управления;\n3. Управляйте светом с помощью беспроводного выключателя.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/blok-upravleniya-relay-1-2",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296596",
                 "name":"Бежевый",
                 "price":2980.0,
                 "image":"https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Блок управления":"Relay-1",
+                    "Выключатель":"Base-1 (бежевый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n1. Установите блок управления;\n2. Свяжите радиовыключатель с блоком управления;\n3. Управляйте светом с помощью беспроводного выключателя.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/blok-upravleniya-relay-1-2",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296598",
                 "name":"Белый с Relay-F",
                 "price":2980.0,
                 "image":"https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Блок управления":"Relay-F1",
+                    "Выключатель":"Base-1 (белый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n1. Установите блок управления;\n2. Свяжите радиовыключатель с блоком управления;\n3. Управляйте светом с помощью беспроводного выключателя.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/blok-upravleniya-relay-f1",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296600",
                 "name":"Бежевый с Relay-F",
                 "price":2980.0,
                 "image":"https://static.tildacdn.com/stor3462-3864-4161-b464-316331383064/10193371.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Блок управления":"Relay-F1",
+                    "Выключатель":"Base-1 (бежевый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n1. Установите блок управления;\n2. Свяжите радиовыключатель с блоком управления;\n3. Управляйте светом с помощью беспроводного выключателя.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/blok-upravleniya-relay-f1",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             }
         ]
     },
@@ -121,72 +145,120 @@ const products = [
                 "name":"Белый с датчиком Smart Water",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Water",
+                    "Выключатель":"Base-2 (белый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296442",
                 "name":"Бежевый с датчиком Smart Water",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Water",
+                    "Выключатель":"Base-2 (бежевый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296720",
                 "name":"Белый с датчиком Smart Air",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Air",
+                    "Выключатель":"Base-2 (белый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296714",
                 "name":"Бежевый с датчиком Smart Air",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Air",
+                    "Выключатель":"Base-2 (бежевый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296724",
                 "name":"Белый с датчиком Smart Checker",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Checker",
+                    "Выключатель":"Base-2 (белый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296718",
                 "name":"Бежевый с датчиком Smart Checker",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Checker",
+                    "Выключатель":"Base-2 (бежевый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296722",
                 "name":"Белый с датчиком Smart Motion",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Motion",
+                    "Выключатель":"Base-2 (белый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             },
             {
                 "id":"296716",
                 "name":"Бежевый с датчиком Smart Motion",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3962-3036-4835-a135-313733316161/41887660.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Датчик":"Smart Motion",
+                    "Выключатель":"Base-2 (бежевый)"
+                },
+                "description":"Протестируйте устройства HiTE PRO у себя дома!\n\nПорядок подключения набора:\n1. Установите Relay-F2 за проводной выключатель;\n2. Свяжите радиовыключатель Base-2 и радиомодуль UNI с блоком Relay-F2;\n3. Подключите сервер умного дома, создайте учетную запись;\n4. Добавьте в сервер выключатель, реле, радиомодуль и датчик.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video-140176277_456239585?list=ln-zCmQvFQGm9f2f4pwOI"
+                }
             }
         ]
     },
@@ -203,8 +275,10 @@ const products = [
                 "name":"Билет на живое обучение в шоуруме HiTE PRO 27 сентября",
                 "price":6000.0,
                 "image":"https://static.tildacdn.com/stor3832-3263-4465-a262-303764333265/35976172.png",
-                "specifications":{},
-                "description":"",
+                "specifications":{
+                    "Дата":"27 сентября"
+                },
+                "description":"Программа\n- Повторение базовой теории;\n- Подбор оборудования;\n- Монтаж и базовая настройка блоков управления;\n- Подключение выключателей и датчиков;\n- Регистрация сервера, добавление устройств и подключение к Алисе.\n\nФормат\nЛабораторная работа с учебным стендом, методичкой и опытным наставником. Группа до 10 человек (по 2 на стенд).\n\nДля кого данное обучение?\nИдеально для тех, у кого нет или совсем мало опыта работы с устройствами HiTE PRO. Покрутите в руках все устройства, настроите их под присмотром сотрудника HiTE PRO.",
                 "instructions":{}
             }
         ]
@@ -222,9 +296,13 @@ const products = [
                 "name":"Каталог HiTE PRO",
                 "price":1.0,
                 "image":"https://static.tildacdn.com/stor3335-3962-4232-a163-353032383535/78693873.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Акция":"Дарим 1 каталог за каждые 5000 руб суммы заказа!"
+                },
+                "description":"Печатный каталог альбомной ориентации с описанием продукции HiTE PRO.\nКрасивый, приятный на ощупь, идеально подходит для презентации продукции клиентам. \n\nПодарите клиентам каталог HiTE PRO и обязательно оставьте визитку или брошюру, в которой указаны ваши контакты, – когда клиенты будут листать каталог уютным пятничным вечером, укутавшись в плед и попивая горячий чай, они непременно захотят управлять всем домом через мобильное приложение или с помощью голосового помощника, не покидая своего кресла.\n\nВот тут они и увидят ваши контакты – позвонят вам и запланируют встречу, чтобы наконец запустить проект умного дома!\n\nПоэтому не пренебрегайте каталогом, добавляйте его в каждый заказ! Ведь у каждого клиента есть знакомые, которые только планируют сделать ремонт! Они тоже захотят умный дом и обратятся к вам – по рекомендации ;-)",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/katalog"
+                }
             }
         ]
     },
@@ -241,9 +319,17 @@ const products = [
                 "name":"Gateway",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/stor3461-3031-4532-b539-366236666236/68601724.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Варианты подключения к интернету":"WiFi 2.4, RJ-45, USB 3G/4G hilink",
+                    "Питание":"5 В (type-c)",
+                    "Вес":"70 г",
+                    "Габариты":"71 х 73 х 27 мм"
+                },
+                "description":"Используется для беспроводного управления системой умного дома через приложение HiTE PRO или голосовые помощники Алиса, Маруся, Салют, Siri или Google Assistant.\n\nВсе блоки управления HiTE PRO можно связать с сервером.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/server-umnogo-doma-gateway",
+                    "video":"https://vk.com/video/@hite_pro?z=video-140176277_456239543%2Fclub140176277"
+                }
             }
         ]
     },
@@ -260,18 +346,34 @@ const products = [
                 "name":"Белый",
                 "price":3080.0,
                 "image":"https://static.tildacdn.com/stor3730-3161-4563-b162-346536643032/49671049.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"1",
+                    "Питание":"220 В",
+                    "Максимальная нагрузка":"4000 Вт (16 А)",
+                    "Вес":"100 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Блок управления в виде накладной розетки.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/umnaya-rozetka-smart-socket"
+                }
             },
             {
                 "id":"296964",
                 "name":"Черный",
                 "price":3080.0,
                 "image":"https://static.tildacdn.com/stor3730-3161-4563-b162-346536643032/49671049.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"1",
+                    "Питание":"220 В",
+                    "Максимальная нагрузка":"4000 Вт (16 А)",
+                    "Вес":"100 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Блок управления в виде накладной розетки.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/umnaya-rozetka-smart-socket"
+                }
             }
         ]
     },
@@ -288,9 +390,18 @@ const products = [
                 "name":"Relay-F1",
                 "price":3480.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"1",
+                    "Питание":"220 В",
+                    "Максимальная нагрузка на блок":"440 Вт (2 А)",
+                    "Минимальная нагрузка на канал":"10 Вт",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Блок управления подключается «в разрыв» фазного провода. То есть нулевой провод не требуется. Удобно установить за проводной выключатель.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/blok-upravleniya-relay-f1"
+                }
             }
         ]
     },
@@ -307,9 +418,18 @@ const products = [
                 "name":"Relay-F2",
                 "price":4980.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"2",
+                    "Питание":"220 В",
+                    "Максимальная нагрузка на блок":"440 Вт (2 А)",
+                    "Минимальная нагрузка на канал":"10 Вт",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Блок управления подключается «в разрыв» фазного провода. То есть нулевой провод не требуется. Удобно установить за проводной выключатель.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/shop/goods/blok-upravleniya-relay-f2"
+                }
             }
         ]
     },
@@ -327,21 +447,15 @@ const products = [
                 "price":3080.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
                 "specifications":{
-                    "Вес":"43 г",
-                    "Габариты":"47 × 17 × 37 мм",
-                    "Рабочие диапазоны частот":"868 МГц",
-                    "Кол-во каналов":"1 канал",
-                    "Максимальное количество передатчиков":"200",
-                    "Дальность действия":"до 250 метров",
+                    "Кол-во каналов":"1",
                     "Питание":"220 В",
-                    "Максимальная нагрузка на 1 линию":"1000 Вт",
-                    "Энергопотребление блока":"0.35 Вт",
-                    "Температурный диапазон эксплуатации":"от -30 до +50 ℃",
-                    "Подключение":"Винтовые клеммники для подключения"
+                    "Максимальная нагрузка на 1 канал":"1000 Вт (5 А)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Подключается к светильнику или другому прибору, которым нужно управлять",
+                "description":"Блок управления, подключается в разрыв фазного и нулевого проводов. Питание 220 В.",
                 "instructions":{
-                    "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay1-2_220%D0%92_web.pdf",
+                    "pdf":"https://www.hite-pro.ru/instrukcii",
                     "video":"https://clck.ru/3CTajv"
                 }
             },
@@ -351,19 +465,13 @@ const products = [
                 "price":3080.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
                 "specifications":{
-                    "Вес":"43 г",
-                    "Габариты":"47 × 17 × 37 мм",
-                    "Рабочие диапазоны частот":"868 МГц",
-                    "Кол-во каналов":"1 канал",
-                    "Максимальное количество передатчиков":"200",
-                    "Дальность действия":"до 250 метров",
+                    "Кол-во каналов":"1",
                     "Питание":"12 В",
-                    "Максимальная нагрузка на 1 линию":"60 Вт",
-                    "Энергопотребление блока":"0.35 Вт",
-                    "Температурный диапазон эксплуатации":"от -30 до +50 ℃",
-                    "Подключение":"Винтовые клеммники для подключения"
+                    "Максимальная нагрузка на 1 канал":"60 Вт (5 А)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Блок Relay-1 с питанием 12 В",
+                "description":"Блок Relay-1, но с питанием 12 В.",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay1-2_12%D0%92_web.pdf",
                     "video":"https://clck.ru/3CTajv"
@@ -375,19 +483,13 @@ const products = [
                 "price":3080.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
                 "specifications":{
-                    "Вес":"43 г",
-                    "Габариты":"47 × 17 × 37 мм",
-                    "Рабочие диапазоны частот":"868 МГц",
-                    "Кол-во каналов":"1 канал",
-                    "Максимальное количество передатчиков":"200",
-                    "Дальность действия":"до 250 метров",
+                    "Кол-во каналов":"1",
                     "Питание":"12 В",
-                    "Максимальная нагрузка на 1 линию":"60 Вт",
-                    "Энергопотребление блока":"0.35 Вт",
-                    "Температурный диапазон эксплуатации":"от -30 до +50 ℃",
-                    "Подключение":"Винтовые клеммники для подключения"
+                    "Максимальная нагрузка на 1 канал":"60 Вт (5 А)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Блок Relay-1 с питанием 12 В и выходом \"сухой\" контакт",
+                "description":"Блок Relay-1, но с питанием 12 В и выходом \"сухой\" контакт.",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay1-2_12%D0%92_Dry_web.pdf",
                     "video":"https://clck.ru/3CTajv"
@@ -399,19 +501,13 @@ const products = [
                 "price":3080.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
                 "specifications":{
-                    "Вес":"43 г",
-                    "Габариты":"47 × 17 × 37 мм",
-                    "Рабочие диапазоны частот":"868 МГц",
-                    "Кол-во каналов":"1 канал",
-                    "Максимальное количество передатчиков":"200",
-                    "Дальность действия":"до 250 метров",
+                    "Кол-во каналов":"1",
                     "Питание":"220 В",
-                    "Максимальная нагрузка на 1 линию":"1000 Вт",
-                    "Энергопотребление блока":"0.35 Вт",
-                    "Температурный диапазон эксплуатации":"от -30 до +50 ℃",
-                    "Подключение":"Винтовые клеммники для подключения"
+                    "Максимальная нагрузка на 1 канал":"1000 Вт (5 А)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Блок Relay-1 с выходом \"сухой\" контакт",
+                "description":"Блок Relay-1, но с выходом \"сухой\" контакт.",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay1-2_220%D0%92_Dry_web.pdf",
                     "video":"https://clck.ru/3CTajv"
@@ -432,18 +528,36 @@ const products = [
                 "name":"220 В",
                 "price":4780.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"2",
+                    "Питание":"220 В",
+                    "Максимальная нагрузка на 1 канал":"1000 Вт (5 А)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Блок управления, подключается в разрыв фазного и нулевого проводов. Питание 220 В.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/instrukcii",
+                    "video":"https://clck.ru/3CTajv"
+                }
             },
             {
                 "id":"206942",
                 "name":"220 В (сухой контакт)",
                 "price":4780.0,
                 "image":"https://static.tildacdn.com/tild6438-6333-4963-b638-396166323438/drive.jpg",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"2",
+                    "Питание":"220 В",
+                    "Максимальная нагрузка на 1 канал":"1000 Вт (5 А)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Блок Relay-2, но с выходом \"сухой\" контакт.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/instrukcii",
+                    "video":"https://clck.ru/3CTajv"
+                }
             }
         ]
     },
@@ -460,9 +574,18 @@ const products = [
                 "name":"DST-1",
                 "price":1480.0,
                 "image":"https://static.tildacdn.com/tild3530-6662-4763-a233-653838303239/015-HTPR.png",
-                "specifications":{},
-                "description":"",
-                "instructions":{}
+                "specifications":{
+                    "Кол-во каналов":"1",
+                    "Максимальная дальность действия на открытом пространстве":"250 м",
+                    "Питание":"3 В (CR2032)",
+                    "Вес":"43 г",
+                    "Габариты":"47 × 17 × 37 мм"
+                },
+                "description":"Пульт-брелок для дистанционного управления блоками HiTE PRO.",
+                "instructions":{
+                    "pdf":"https://www.hite-pro.ru/instrukcii",
+                    "video":"https://clck.ru/3CTajv"
+                }
             }
         ]
     },
@@ -1450,7 +1573,16 @@ const products = [
                 "name":"Relay-4m",
                 "price":9980.0,
                 "image":"https://static.tildacdn.com/tild6165-3763-4163-b039-306463646139/1.png",
-                "specifications":{},
+                "specifications":{
+                    "MAX нагрузка на канал":"3 500 Вт (16 A / 250 В)",
+                    "Кол-во каналов":"4",
+                    "Рабочая частота":"868 МГц",
+                    "Питание":"85-265 В, 50 Гц",
+                    "Вес":"150",
+                    "Длина":"90",
+                    "Ширина":"36",
+                    "Высота":"61"
+                },
                 "description":"",
                 "instructions":{}
             }
