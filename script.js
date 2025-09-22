@@ -4959,6 +4959,7 @@ const products = [
 // --- Состояние ---
 let cart = [];
 let currentCategory = 'all';
+let currentSearchQuery = ''; // Новое: для хранения текущего поискового запроса
 
 // --- DOM элементы ---
 const categoriesList = document.getElementById('categoriesList');
@@ -5008,6 +5009,9 @@ const detailsModalTitle = document.getElementById('detailsModalTitle');
 // --- Новые элементы для модального окна деталей ---
 const detailsModSelectorContainer = document.getElementById('details-mod-selector-container');
 const detailsModSelector = document.getElementById('details-mod-selector');
+// --- Новые DOM элементы для поиска ---
+const searchInput = document.getElementById('searchInput');
+const clearSearchButton = document.getElementById('clearSearch');
 
 // --- Инициализация ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -5022,7 +5026,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCategories();
     renderProducts();
     updateCartUI();
-    
+
     deliveryMethod.addEventListener('change', handleDeliveryMethodChange);
     paymentMethod.addEventListener('change', handlePaymentMethodChange);
     recipientPhone.addEventListener('input', formatPhoneNumber);
@@ -5030,7 +5034,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generateKpButton.addEventListener('click', handleGenerateKp);
     checkoutButton.addEventListener('click', handleCheckout);
     closeDetailsModal.addEventListener('click', closeProductDetailsModal);
-    
+
     window.addEventListener('click', (event) => {
         if (event.target === detailsModal) {
             closeProductDetailsModal();
@@ -5039,7 +5043,11 @@ document.addEventListener('DOMContentLoaded', () => {
             cartModal.style.display = 'none';
         }
     });
-    
+
+    // --- Добавляем обработчики событий для поиска ---
+    searchInput.addEventListener('input', handleSearchInput);
+    clearSearchButton.addEventListener('click', clearSearch);
+
     // --- Логика переключения вкладок в модальном окне деталей ---
     document.querySelector('.tabs')?.addEventListener('click', (e) => {
         if (e.target.classList.contains('tab-button')) {
@@ -5078,14 +5086,14 @@ function formatPhoneNumber(e) {
     if (value.length >= 8) {
         formattedValue += '-' + value.substring(8, 10);
     }
-    
+
     e.target.value = formattedValue;
 }
 
 // --- Обработчик изменения способа доставки ---
 function handleDeliveryMethodChange() {
     const selectedMethod = deliveryMethod.value;
-    
+
     deliveryAddressSection.style.display = 'none';
     pickupAddressSection.style.display = 'none';
     deliveryAddressNote.textContent = '';
@@ -5107,13 +5115,13 @@ function handleDeliveryMethodChange() {
 // --- Обработчик изменения способа оплаты ---
 function handlePaymentMethodChange() {
     const selectedMethod = paymentMethod.value;
-    
+
     if (selectedMethod === 'card') {
         cardPaymentNote.style.display = 'block';
     } else {
         cardPaymentNote.style.display = 'none';
     }
-    
+
     if (selectedMethod === 'invoice') {
         legalInfoSection.style.display = 'block';
     } else {
@@ -5170,13 +5178,43 @@ function selectCategory(categoryId) {
     renderProducts();
 }
 
+// --- Обработчик ввода в поле поиска ---
+function handleSearchInput(e) {
+    const query = e.target.value.trim();
+    currentSearchQuery = query.toLowerCase();
+
+    // Показываем/скрываем кнопку очистки
+    clearSearchButton.style.display = query ? 'flex' : 'none';
+
+    // Перерисовываем товары с учетом поиска и категории
+    renderProducts();
+}
+
+// --- Очистка поиска ---
+function clearSearch() {
+    searchInput.value = '';
+    currentSearchQuery = '';
+    clearSearchButton.style.display = 'none';
+    renderProducts();
+}
+
 // --- Рендеринг товаров ---
 function renderProducts() {
     productGrid.innerHTML = '';
 
+    // Фильтрация товаров: сначала по категории, затем по поисковому запросу
     let filteredProducts = products;
+
+    // Фильтр по категории
     if (currentCategory !== 'all') {
-        filteredProducts = products.filter(product => product.category === currentCategory);
+        filteredProducts = filteredProducts.filter(product => product.category === currentCategory);
+    }
+
+    // Фильтр по поисковому запросу (по названию товара)
+    if (currentSearchQuery) {
+        filteredProducts = filteredProducts.filter(product =>
+            product.name.toLowerCase().includes(currentSearchQuery)
+        );
     }
 
     if (filteredProducts.length === 0) {
