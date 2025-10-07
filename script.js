@@ -49,6 +49,7 @@ function sendToTelegramBot(data) {
 // --- Данные категорий ---
 const categories = [
     { id: 'all', name: 'Все товары' },
+    { id: 'Merch', name: 'Мерч'},
     { id: 'relay', name: 'Блоки управления' },
     { id: 'switch', name: 'Выключатели' },
     { id: 'komplekt', name: 'Комплекты' },
@@ -64,21 +65,21 @@ const categories = [
 const products = [
     {
         "id":3,
-        "name":"Билет на живое обучение в шоуруме HiTE PRO 27 сентября",
-        "price":6000.0,
-        "image":"https://static.tildacdn.com/stor3832-3263-4465-a262-303764333265/35976172.png",
+        "name":"Билет на живое обучение в офисе HiTE PRO — 01 ноября",
+        "price":10000.0,
+        "image":"https://static.tildacdn.com/stor6639-6335-4539-a130-343937363366/99732103.png",
         "category":"other",
-        "description":"Осталось 10 мест. Оффлайн-интенсив за 1 день. Идеально подойдёт тем, у кого ещё нет или совсем мало опыта в работе с HiTE PRO.",
+        "description":"Оффлайн-интенсив за 1 день. Идеально подойдёт тем, у кого ещё нет или совсем мало опыта в работе с HiTE PRO.",
         "modifications":[
             {
                 "id":"300012",
-                "name":"Билет на живое обучение в шоуруме HiTE PRO 27 сентября",
-                "price":6000.0,
-                "image":"https://static.tildacdn.com/stor3832-3263-4465-a262-303764333265/35976172.png",
+                "name":"Билет на живое обучение в офисе HiTE PRO — 01 ноября (суббота)",
+                "price":10000.0,
+                "image":"https://static.tildacdn.com/stor6639-6335-4539-a130-343937363366/99732103.png",
                 "specifications":{
-                    "Дата":"27 сентября"
+                    "Дата":"01 ноября 2025"
                 },
-                "description":"Программа\n- Повторение базовой теории;\n- Подбор оборудования;\n- Монтаж и базовая настройка блоков управления;\n- Подключение выключателей и датчиков;\n- Регистрация сервера, добавление устройств и подключение к Алисе.\n\nФормат\nЛабораторная работа с учебным стендом, методичкой и опытным наставником. Группа до 10 человек (по 2 на стенд).\n\nДля кого данное обучение?\nИдеально для тех, у кого нет или совсем мало опыта работы с устройствами HiTE PRO. Покрутите в руках все устройства, настроите их под присмотром сотрудника HiTE PRO.",
+                "description":"Программа обучения\n* Повторение базовой теории;\n* Подбор оборудования под задачу;\n* Монтаж и базовая настройка блоков управления;\n* Подключение выключателей и датчиков;\n* Регистрация сервера, добавление устройств, интеграция с Алисой.\n\nФормат\n* Практическая лабораторная работа: учебные стенды, методички и наставник от HiTE PRO. Группа — 10 человек (по 2 участника на стенд).\n\nДля кого обучение\n* Для тех, кто впервые сталкивается с HiTE PRO или хочет закрепить базу. Вы сможете «пощупать» оборудование, собрать и настроить систему своими руками — под присмотром опытного сотрудника компании.\n\nУсловия участия\n* Стоимость: 10 000 ₽\n* Обед включён\n* Максимум: 10 участников\n* Первые 10 оплативших — становятся участниками",
                 "instructions":{}
             }
         ]
@@ -583,7 +584,7 @@ const products = [
                     "Вес":"43 г",
                     "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Бесшумный блок Relay-1 на симисторных ключах (\"твердотельных реле\"), устанавливаемый в разрыв фазного и нулевого провода.",
+                "description":"Бесшумный блок Relay-1 (но мощность ниже) на симисторных ключах (\"твердотельных реле\"), устанавливаемый в разрыв фазного и нулевого провода.",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay1-2Q_220%D0%92_web.pdf"
                 }
@@ -610,7 +611,7 @@ const products = [
                     "Вес":"43 г",
                     "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Бесшумный блок Relay-2 на симисторных ключах (\"твердотельных реле\"), устанавливаемый в разрыв фазного и нулевого провода.",
+                "description":"Бесшумный блок Relay-2 (но мощность ниже) на симисторных ключах (\"твердотельных реле\"), устанавливаемый в разрыв фазного и нулевого провода.",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay1-2Q_220%D0%92_web.pdf"
                 }
@@ -742,7 +743,7 @@ const products = [
                     "Вес":"43 г",
                     "Габариты":"47 × 17 × 37 мм"
                 },
-                "description":"Блок управления для управления питанием диодных ламп и ламп накаливания. ",
+                "description":"Блок для управления питанием диодных ламп и ламп накаливания. ",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/Relay-DIM_115x105mm.pdf",
                     "video":"https://clck.ru/3CTaoD"
@@ -2428,7 +2429,7 @@ const products = [
         "name":"Футболка HiTE PRO темно-синяя",
         "price":1600.0,
         "image":"https://static.tildacdn.com/stor3933-6134-4531-b262-343332666463/42512992.png",
-        "category":"other",
+        "category":"Merch",
         "description":"Хлопковая футболка в стиле oversize",
         "modifications":[
             {
@@ -2483,7 +2484,7 @@ const products = [
         "name":"Кепка HiTE PRO темно-синяя",
         "price":1600.0,
         "image":"https://static.tildacdn.com/stor6436-3830-4866-a562-663532633337/28196858.jpg",
-        "category":"other",
+        "category":"Merch",
         "description":"Кепка регулируемая onesize",
         "modifications":[
             {
@@ -2507,7 +2508,7 @@ const products = [
         "modifications":[
             {
                 "id":"301066",
-                "name":"Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Bugatti - 2",
+                "name":"2 шт Bugatti 220",
                 "price":25540.0,
                 "image":"https://static.tildacdn.com/stor6431-3834-4162-b133-653538656133/55102437.jpg",
                 "specifications":{},
@@ -2516,7 +2517,7 @@ const products = [
             },
             {
                 "id":"301068",
-                "name":"Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Profi - 2",
+                "name":"2 шт Profi 220",
                 "price":23940.0,
                 "image":"https://static.tildacdn.com/stor6530-6464-4333-b036-643565356237/70060083.jpg",
                 "specifications":{},
@@ -2525,7 +2526,7 @@ const products = [
             },
             {
                 "id":"301062",
-                "name":"Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Bugatti - 1",
+                "name":"1 шт Bugatti 220",
                 "price":16250.0,
                 "image":"https://static.tildacdn.com/stor6431-3834-4162-b133-653538656133/55102437.jpg",
                 "specifications":{},
@@ -2534,7 +2535,7 @@ const products = [
             },
             {
                 "id":"301064",
-                "name":"Комплект для защиты от протечек HiTE PRO на трубу 1/2 - Profi - 1",
+                "name":"1 шт Profi",
                 "price":15450.0,
                 "image":"https://static.tildacdn.com/stor6530-6464-4333-b036-643565356237/70060083.jpg",
                 "specifications":{},
@@ -3214,52 +3215,6 @@ const products = [
                 "instructions":{
                     "pdf":"https://valtec.ru/document/technical/VT.TE3043-0220.pdf"
                 }
-            }
-        ]
-    },
-    {
-        "id":44,
-        "name":"Клапан термостатический Valtec",
-        "price":1148.0,
-        "image":"https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg",
-        "category":"other",
-        "description":"Прямой клапан для ручного или автоматического регулирования расхода теплоносителя через отопительный прибор. Во втором случае комплектуется термостатической головкой или сервоприводом, управляемым комнатным термостатом или контроллером.\n\nИспользование регулирующих клапанов VALTEC c термостатической головкой позволяет автоматически поддерживать заданную температуру в помещении с точностью до 1 °С.",
-        "modifications":[
-            {
-                "id":"276892",
-                "name":"Прямой - 1/2",
-                "price":1148.0,
-                "image":"https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg",
-                "specifications":{},
-                "description":"Клапан для ручного или автоматического регулирования расхода теплоносителя через отопительный прибор.",
-                "instructions":{}
-            },
-            {
-                "id":"276886",
-                "name":"Угловой - 1/2",
-                "price":1127.0,
-                "image":"https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg",
-                "specifications":{},
-                "description":"Клапан для ручного или автоматического регулирования расхода теплоносителя через отопительный прибор.",
-                "instructions":{}
-            },
-            {
-                "id":"276890",
-                "name":"Прямой - 3/4",
-                "price":1470.0,
-                "image":"https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg",
-                "specifications":{},
-                "description":"Клапан для ручного или автоматического регулирования расхода теплоносителя через отопительный прибор.",
-                "instructions":{}
-            },
-            {
-                "id":"276888",
-                "name":"Угловой - 3/4",
-                "price":1807.0,
-                "image":"https://static.tildacdn.com/tild3938-6564-4634-b231-323335333535/VT031NR_0.jpg",
-                "specifications":{},
-                "description":"Клапан для ручного или автоматического регулирования расхода теплоносителя через отопительный прибор.",
-                "instructions":{}
             }
         ]
     },
@@ -4959,7 +4914,6 @@ const products = [
 // --- Состояние ---
 let cart = [];
 let currentCategory = 'all';
-let currentSearchQuery = ''; // Новое: для хранения текущего поискового запроса
 
 // --- DOM элементы ---
 const categoriesList = document.getElementById('categoriesList');
@@ -5009,9 +4963,6 @@ const detailsModalTitle = document.getElementById('detailsModalTitle');
 // --- Новые элементы для модального окна деталей ---
 const detailsModSelectorContainer = document.getElementById('details-mod-selector-container');
 const detailsModSelector = document.getElementById('details-mod-selector');
-// --- Новые DOM элементы для поиска ---
-const searchInput = document.getElementById('searchInput');
-const clearSearchButton = document.getElementById('clearSearch');
 
 // --- Инициализация ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -5026,7 +4977,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCategories();
     renderProducts();
     updateCartUI();
-
+    
     deliveryMethod.addEventListener('change', handleDeliveryMethodChange);
     paymentMethod.addEventListener('change', handlePaymentMethodChange);
     recipientPhone.addEventListener('input', formatPhoneNumber);
@@ -5034,7 +4985,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generateKpButton.addEventListener('click', handleGenerateKp);
     checkoutButton.addEventListener('click', handleCheckout);
     closeDetailsModal.addEventListener('click', closeProductDetailsModal);
-
+    
     window.addEventListener('click', (event) => {
         if (event.target === detailsModal) {
             closeProductDetailsModal();
@@ -5043,11 +4994,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cartModal.style.display = 'none';
         }
     });
-
-    // --- Добавляем обработчики событий для поиска ---
-    searchInput.addEventListener('input', handleSearchInput);
-    clearSearchButton.addEventListener('click', clearSearch);
-
+    
     // --- Логика переключения вкладок в модальном окне деталей ---
     document.querySelector('.tabs')?.addEventListener('click', (e) => {
         if (e.target.classList.contains('tab-button')) {
@@ -5086,14 +5033,14 @@ function formatPhoneNumber(e) {
     if (value.length >= 8) {
         formattedValue += '-' + value.substring(8, 10);
     }
-
+    
     e.target.value = formattedValue;
 }
 
 // --- Обработчик изменения способа доставки ---
 function handleDeliveryMethodChange() {
     const selectedMethod = deliveryMethod.value;
-
+    
     deliveryAddressSection.style.display = 'none';
     pickupAddressSection.style.display = 'none';
     deliveryAddressNote.textContent = '';
@@ -5115,13 +5062,13 @@ function handleDeliveryMethodChange() {
 // --- Обработчик изменения способа оплаты ---
 function handlePaymentMethodChange() {
     const selectedMethod = paymentMethod.value;
-
+    
     if (selectedMethod === 'card') {
         cardPaymentNote.style.display = 'block';
     } else {
         cardPaymentNote.style.display = 'none';
     }
-
+    
     if (selectedMethod === 'invoice') {
         legalInfoSection.style.display = 'block';
     } else {
@@ -5178,43 +5125,13 @@ function selectCategory(categoryId) {
     renderProducts();
 }
 
-// --- Обработчик ввода в поле поиска ---
-function handleSearchInput(e) {
-    const query = e.target.value.trim();
-    currentSearchQuery = query.toLowerCase();
-
-    // Показываем/скрываем кнопку очистки
-    clearSearchButton.style.display = query ? 'flex' : 'none';
-
-    // Перерисовываем товары с учетом поиска и категории
-    renderProducts();
-}
-
-// --- Очистка поиска ---
-function clearSearch() {
-    searchInput.value = '';
-    currentSearchQuery = '';
-    clearSearchButton.style.display = 'none';
-    renderProducts();
-}
-
 // --- Рендеринг товаров ---
 function renderProducts() {
     productGrid.innerHTML = '';
 
-    // Фильтрация товаров: сначала по категории, затем по поисковому запросу
     let filteredProducts = products;
-
-    // Фильтр по категории
     if (currentCategory !== 'all') {
-        filteredProducts = filteredProducts.filter(product => product.category === currentCategory);
-    }
-
-    // Фильтр по поисковому запросу (по названию товара)
-    if (currentSearchQuery) {
-        filteredProducts = filteredProducts.filter(product =>
-            product.name.toLowerCase().includes(currentSearchQuery)
-        );
+        filteredProducts = products.filter(product => product.category === currentCategory);
     }
 
     if (filteredProducts.length === 0) {
