@@ -5100,7 +5100,7 @@ function handleDeliveryMethodChange() {
         }
         deliveryAddressSection.style.display = 'block'; // Показываем само поле адреса
         if (selectedMethod === 'pickup_point') {
-            deliveryAddressNote.textContent = 'Выберите пункт выдачи СДЭК или Яндекс на карте.';
+            deliveryAddressNote.textContent = 'Введите адрес пункта выдачи Сдек или Яндекс.';
         } else {
             deliveryAddressNote.textContent = '';
         }
@@ -5888,7 +5888,7 @@ function handleGenerateKp(e) {
     kpSummary += "\nБот отправит КП с розничными ценами.\n";
     // --- КОНЕЦ НОВОГО ---
     kpSummary += "\nКоммерческое предложение сформировано и отправлено в бот!";
-    alert(kpSummary);
+
 }
 
 // --- Обработчик кнопки "Оформить заказ" ---
@@ -5976,8 +5976,8 @@ function handleCheckout(e) {
         orderSummary += `БИК: ${orderPayload.organizationBik}\n`;
         orderSummary += `Расчетный счет: ${orderPayload.organizationAccount}\n`;
     }
-    orderSummary += "\nЗаказ оформлен и отправлен в бот!";
-    alert(orderSummary);
+    orderSummary += "\nЗаказ оформлен и отправлен менеджеру!";
+    ;
 
     // Очищаем корзину и форму
     cart = [];
