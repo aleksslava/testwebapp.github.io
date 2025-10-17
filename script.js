@@ -5908,6 +5908,7 @@ function handleCheckout(e) {
     // Подготавливаем данные заказа для отправки
     const orderPayload = {
         type: "order", // Тип запроса
+        previos: usePreviousOrderCheckbox, // чекбокс заполнить по прошлому заказу
         bonuses: urlParams.bonuses, // Бонусы из URL
         userId: urlParams.userId,   // ID пользователя из URL
         discont: urlParams.discont, // Скидка из URL
