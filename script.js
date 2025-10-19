@@ -1250,7 +1250,7 @@ let products =
     },
     {
         "id":52,
-        "name":"Base-1 (без фиксации)",
+        "name":"Base-1 без рамки (без фиксации)",
         "price":1780.0,
         "image":"https://static.tildacdn.com/stor3865-3435-4331-a331-633732333863/24952004.png",
         "category":"switch",
@@ -1268,7 +1268,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239295"
@@ -1286,7 +1286,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239296"
@@ -1304,7 +1304,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239297"
@@ -1322,7 +1322,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239298"
@@ -1332,7 +1332,7 @@ let products =
     },
     {
         "id":53,
-        "name":"Base-2 (без фиксации)",
+        "name":"Base-2 без рамки (без фиксации)",
         "price":2180.0,
         "image":"https://static.tildacdn.com/stor3963-3065-4539-b033-336563363133/22799452.png",
         "category":"switch",
@@ -1350,7 +1350,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239295"
@@ -1368,7 +1368,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239296"
@@ -1386,7 +1386,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239297"
@@ -1404,7 +1404,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный звонкового типа (без фиксации клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239298"
@@ -1414,7 +1414,7 @@ let products =
     },
     {
         "id":54,
-        "name":"Base-1F (с фиксацией)",
+        "name":"Base-1F без рамки (с фиксацией)",
         "price":1780.0,
         "image":"https://static.tildacdn.com/stor3863-6463-4066-a361-396535343664/11513905.png",
         "category":"switch",
@@ -1432,7 +1432,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239295"
@@ -1450,7 +1450,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239296"
@@ -1468,7 +1468,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239297"
@@ -1486,7 +1486,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239298"
@@ -1496,7 +1496,7 @@ let products =
     },
     {
         "id":55,
-        "name":"Base-2F (с фиксацией)",
+        "name":"Base-2F без рамки (с фиксацией)",
         "price":2180.0,
         "image":"https://static.tildacdn.com/stor6462-6661-4165-b961-313961343935/48504921.png",
         "category":"switch",
@@ -1514,7 +1514,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239295"
@@ -1532,7 +1532,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239296"
@@ -1550,7 +1550,7 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239297"
@@ -1568,11 +1568,65 @@ let products =
                     "Вес":"90 г",
                     "Габариты":"85 × 85 × 13 мм"
                 },
-                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite.",
+                "description":"Радиовыключатель клавишный перекидного типа (с фиксацией клавиш), совместим с рамками Schneider Atlas и IEK Brite. Рамка продается отдельно!",
                 "instructions":{
                     "pdf":"https://www.hite-pro.ru/wp-content/uploads/manual/AT115x105mm.pdf",
                     "video":"https://vkvideo.ru/video-140176277_456239298"
                 }
+            }
+        ]
+    },
+    {
+        "id":78,
+        "name":"Рамка для Base",
+        "price":100.0,
+        "image":"https://static.tildacdn.com/stor3666-3862-4530-a664-653931663534/96158079.webp",
+        "category":"switch",
+        "description":"Рамка для выключателя Base",
+        "modifications":[
+            {
+                "id":"291760",
+                "name":"Белая",
+                "price":100.0,
+                "image":"https://static.tildacdn.com/stor3666-3862-4530-a664-653931663534/96158079.webp",
+                "specifications":{
+                    "Производитель":"Systeme Electric"
+                },
+                "description":"Рамка для выключателя Base в стиле Schneider Atlas Design или IEK Brite",
+                "instructions":{}
+            },
+            {
+                "id":"291758",
+                "name":"Бежевая",
+                "price":100.0,
+                "image":"https://static.tildacdn.com/stor3635-3863-4337-a330-633239613362/64811909.webp",
+                "specifications":{
+                    "Производитель":"Systeme Electric"
+                },
+                "description":"Рамка для выключателя Base в стиле Schneider Atlas Design или IEK Brite",
+                "instructions":{}
+            },
+            {
+                "id":"293044",
+                "name":"Серая (грифель)",
+                "price":200.0,
+                "image":"https://static.tildacdn.com/stor3031-6566-4434-b237-656364343566/70237950.webp",
+                "specifications":{
+                    "Производитель":"Systeme Electric"
+                },
+                "description":"Рамка для выключателя Base в стиле Schneider Atlas Design или IEK Brite",
+                "instructions":{}
+            },
+            {
+                "id":"293046",
+                "name":"Черная (карбон)",
+                "price":200.0,
+                "image":"https://static.tildacdn.com/stor3866-6462-4065-a462-613238663439/39266808.webp",
+                "specifications":{
+                    "Производитель":"Systeme Electric"
+                },
+                "description":"Рамка для выключателя Base в стиле Schneider Atlas Design или IEK Brite",
+                "instructions":{}
             }
         ]
     },
@@ -4906,8 +4960,7 @@ let products =
             }
         ]
     }
-]
-; // Предполагается, что товары будут загружены отдельно
+]; // Предполагается, что товары будут загружены отдельно
 
 // --- Состояние ---
 let cart = [];
