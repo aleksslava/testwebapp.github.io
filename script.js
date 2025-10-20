@@ -5706,24 +5706,22 @@ function resetCartFormFields() {
 
     // Сброс полей КП
     kpRecipientPhone.value = '';
-    // kpDeliveryMethod.value = ''; // Удалено
-    // kpDeliveryAddress.value = ''; // Удалено
-    // kpDeliveryAddressNote.textContent = ''; // Удалено
-    // kpPickupAddressSection.style.display = 'none'; // Удалено
-    // kpDeliveryAddressContainer.style.display = 'none'; // Удалено
+
 
     // Сброс чекбокса "прошлый заказ" и показ полей
     usePreviousOrderCheckbox.checked = false;
     recipientPhone.closest('.cart-form-section').style.display = 'block'; // Показать телефон по умолчанию
     handleDeliveryMethodChange(); // Сбросить видимость адреса заказа
     handlePaymentMethodChange(); // Сбросить видимость реквизитов заказа
-    // handleDeliveryMethodChange(true); // Удалено - нет отдельной функции для КП
+
 }
 
 // --- Вспомогательная функция: получение выбранного типа скидки ---
-function getSelectedDiscountType() {
-    return document.querySelector('input[name="discountType"]:checked')?.value || 'discount_only';
-}
+if (orderFieldsSection.style.display !== 'none') {
+        function getSelectedDiscountType() {
+    return document.querySelector('input[name="discountType"]:checked')?.value || 'discount_only';}
+    }
+
 
 // --- Валидация формы корзины ---
 // isKpMode = true означает валидацию для КП
@@ -5827,14 +5825,7 @@ function handleGenerateKp(e) {
 
     // --- Вспомогательная функция: получение выбранного типа скидки ---
     function getSelectedDiscountType() {
-        const discountOptions = document.getElementsByName('discountType');
-        let selectedValue = 'discount_only'; // Значение по умолчанию
-        for (const option of discountOptions) {
-            if (option.checked) {
-                selectedValue = option.value;
-                break;
-            }
-        }
+        let selectedValue = 'discount_only';
         return selectedValue;
     }
 
@@ -5908,7 +5899,6 @@ function handleCheckout(e) {
     // Подготавливаем данные заказа для отправки
     const orderPayload = {
         type: "order", // Тип запроса
-        previos: usePreviousOrderCheckbox, // чекбокс заполнить по прошлому заказу
         bonuses: urlParams.bonuses, // Бонусы из URL
         userId: urlParams.userId,   // ID пользователя из URL
         discont: urlParams.discont, // Скидка из URL
