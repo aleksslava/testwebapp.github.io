@@ -5017,14 +5017,6 @@ const usePreviousOrderCheckbox = document.getElementById('usePreviousOrderCheckb
 // --- Новые DOM элементы для полей КП ---
 const kpFieldsSection = document.getElementById('kpFieldsSection');
 const kpRecipientPhone = document.getElementById('kpRecipientPhone');
-// --- УДАЛЕНЫ НЕИСПОЛЬЗУЕМЫЕ ЭЛЕМЕНТЫ ДЛЯ КП ---
-// const kpDeliveryMethod = document.getElementById('kpDeliveryMethod');
-// const kpDeliveryAddressSection = document.getElementById('kpDeliveryAddressSection');
-// const kpDeliveryAddress = document.getElementById('kpDeliveryAddress');
-// const kpDeliveryAddressNote = document.getElementById('kpDeliveryAddressNote');
-// const kpPickupAddressSection = document.getElementById('kpPickupAddressSection');
-// const kpDeliveryAddressContainer = document.getElementById('kpDeliveryAddressContainer');
-// --- КОНЕЦ УДАЛЕННЫХ ЭЛЕМЕНТОВ ---
 
 // --- Новые DOM элементы для модального окна описания ---
 const detailsModal = document.getElementById('detailsModal');
@@ -5952,6 +5944,7 @@ function handleCheckout(e) {
     // Подготавливаем данные заказа для отправки
     const orderPayload = {
         type: "order", // Тип запроса
+        use_previous: usePreviousOrderCheckbox,
         bonuses: urlParams.bonuses, // Бонусы из URL
         userId: urlParams.userId,   // ID пользователя из URL
         discont: urlParams.discont, // Скидка из URL
