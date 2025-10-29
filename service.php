@@ -1,14 +1,6 @@
 <?php
 
-$service = new service(/**
- * Вставьте свой аккаунт\идентификатор для интеграции
- * Put your account for integration here
- */ 'wqGwiQx0gg8mLtiEKsUinjVSICCjtTEP',
-
-    /**
-     * Вставьте свой пароль для интеграции
-     * Put your password for integration here
-     */ 'RmAmgvSgSl1yirlz9QupbzOJVqhCxcP5');
+$service = new service('wqGwiQx0gg8mLtiEKsUinjVSICCjtTEP', 'RmAmgvSgSl1yirlz9QupbzOJVqhCxcP5');
 $service->process($_GET, file_get_contents('php://input'));
 
 class service
