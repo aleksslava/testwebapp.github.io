@@ -7,7 +7,6 @@
     <!-- Подключение Telegram Web App SDK -->
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@cdek-it/widget@3" charset="utf-8"></script>
 </head>
 <body>
     <header class="header">
@@ -77,6 +76,14 @@
                 <!-- Пояснение для КП -->
                 <div class="form-note info-note" id="kpInfoNote">
                     Бот отправит КП с розничными ценами.
+                </div>
+                <!-- --- чекбокс помощь менеджера --- -->
+                <div class="cart-form-section">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="HelpManagerNeed">
+                        <span class="checkbox-custom"></span>
+                        Нужна помощь менеджера!
+                    </label>
                 </div>
             </div>
 
@@ -185,11 +192,6 @@
                     </div>
                 </div>
                 <!-- --- КОНЕЦ НОВОГО --- -->
-                <div id="cdek-map" style="width:800px;height:600px"></div>
-                <script type="text/javascript">
-                      document.addEventListener('DOMContentLoaded', () => 
-                      new window.CDEKWidget({ from: 'Москва', root: 'cdek-map', apiKey: '23c234f6-c060-44a9-ae99-2eb4d8346bc3', defaultLocation: 'Москва' }));
-                </script>
 
             </div> <!-- Конец секции полей заказа -->
 
