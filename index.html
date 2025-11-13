@@ -55,15 +55,24 @@
             </div>
 
             <!-- --- Переключатель КП/Заказ и поля --- -->
+<!--            <div class="cart-form-section">-->
+<!--                <div class="toggle-switch-container">-->
+<!--                    <span class="toggle-label" id="kpLabel">Оформить КП</span>-->
+<!--                    <label class="switch">-->
+<!--                        <input type="checkbox" id="orderTypeToggle">-->
+<!--                        <span class="slider"></span>-->
+<!--                    </label>-->
+<!--                    <span class="toggle-label" id="orderLabel">Оформить заказ</span>-->
+<!--                </div>-->
+<!--            </div>-->
+
             <div class="cart-form-section">
-                <div class="toggle-switch-container">
-                    <span class="toggle-label" id="kpLabel">Сформировать КП</span>
-                    <label class="switch">
-                        <input type="checkbox" id="orderTypeToggle">
-                        <span class="slider"></span>
-                    </label>
-                    <span class="toggle-label" id="orderLabel">Оформить заказ</span>
-                </div>
+                    <label>Тип заказа:</label>
+                    <select id="orderTypeToggle" class="cart-select">
+                        <option value="empty">-- !!!Выберите тип заказа!!! --</option>
+                        <option value="kpLabel">Оформить КП</option>
+                        <option value="orderLabel">Оформить Заказ</option>
+                    </select>
             </div>
 
 
@@ -89,6 +98,14 @@
 
             <!-- Секция полей заказа (изначально скрыта) -->
             <div id="orderFieldsSection" style="display: none;">
+                <!-- --- НОВОЕ: Чекбокс "Заполнить по прошлому заказу" --- -->
+                <div class="cart-form-section">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="usePreviousOrderCheckbox">
+                    <span class="checkbox-custom"></span>
+                    Заполнить поля по прошлому заказу!
+                </label>
+                </div>
 
                 <!-- --- Выбор типа скидки --- -->
                 <div class="cart-form-section">
@@ -112,15 +129,8 @@
                     </div>
                 </div>
 
-                <!-- --- НОВОЕ: Чекбокс "Заполнить по прошлому заказу" --- -->
-                <div class="cart-form-section">
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="usePreviousOrderCheckbox">
-                        <span class="checkbox-custom"></span>
-                        Заполнить по прошлому заказу
-                    </label>
-                </div>
-                <!-- --- КОНЕЦ НОВОГО --- -->
+
+
 
                 <div class="cart-form-section">
                     <label for="recipientPhone">Телефон получателя:</label>

@@ -62,29 +62,6 @@ const categories = [
 ];
 let products = [
     {
-        "id":79,
-        "name":"Живое обучение в офисе HiTE PRO",
-        "price":0.0,
-        "image":"https://static.tildacdn.com/stor6639-6335-4539-a130-343937363366/99732103.png",
-        "category":"other",
-        "description":"Оставьте заявку, если хотите обучиться вживую в офисе HiTE PRO",
-        "modifications":[
-            {
-                "id":"300012",
-                "name":"Живое обучение в офисе HiTE PRO",
-                "price":0.0,
-                "image":"https://static.tildacdn.com/stor6639-6335-4539-a130-343937363366/99732103.png",
-                "specifications":{
-                    "Дата":"Следите за анонсом"
-                },
-                "description":"Видео: https://clck.ru/3Q4KbA\n\nКогда?\n* Новое обучение запустим, когда соберем достаточное количество желающих. Поэтому оставьте заявку, если хотите поскорее пройти обучение в офисе HiTE PRO.\n\nПрограмма?\n* 1 день (8 часов)\n* Повторение базовой теории;\n* Подбор оборудования под задачу;\n* Монтаж и базовая настройка блоков управления;\n* Подключение выключателей и датчиков;\n* Регистрация сервера, добавление устройств, интеграция с Алисой.\n\nФормат?\n* Практическая лабораторная работа: учебные стенды, методички и наставник от HiTE PRO. Группа — 10 человек (по 2 участника на стенд).\n\nДля кого?\n* Для тех, кто впервые сталкивается с HiTE PRO или хочет закрепить базу.\nВы сможете «пощупать» оборудование, собрать и настроить систему своими руками — под присмотром опытного сотрудника компании.\n\nУсловия участия?\n* Стоимость для 1 участника: 10 000 ₽\n* Обед включён\n* Максимум: 10 участников\n* По итогу обучения — сертификат\n",
-                "instructions":{
-                    "video":"https://clck.ru/3Q4KbA"
-                }
-            }
-        ]
-    },
-    {
         "id":1,
         "name":"Стартовый набор партнера ЛАЙТ",
         "price":2980.0,
@@ -286,7 +263,7 @@ let products = [
     },
     {
         "id":80,
-        "name":"Сервер умного дома DIN-Gateway",
+        "name":"DIN-Gateway",
         "price":10980.0,
         "image":"https://static.tildacdn.com/stor3339-3961-4332-b035-343761386533/78041260.png",
         "category":"server",
@@ -295,7 +272,7 @@ let products = [
             {
                 "id":"312771",
                 "name":"DIN-Gateway",
-                "price":9980.0,
+                "price":10980.0,
                 "image":"https://static.tildacdn.com/stor3339-3961-4332-b035-343761386533/78041260.png",
                 "specifications":{
                     "Варианты подключения к интернету":"WiFi 2.4, RJ-45, USB 3G/4G hilink",
@@ -312,7 +289,7 @@ let products = [
     },
     {
         "id":81,
-        "name":"Блок управления DIN-4.RELAY",
+        "name":"DIN-4.Relay",
         "price":9980.0,
         "image":"https://static.tildacdn.com/stor6133-6231-4230-a433-653462396132/28820715.png",
         "category":"relay",
@@ -349,7 +326,7 @@ let products = [
             {
                 "id":"306210",
                 "name":"KEYWAY SL300",
-                "price":23850.0,
+                "price":24800.0,
                 "image":"https://static.tildacdn.com/stor6166-3234-4233-b464-366337636437/99455674.jpg",
                 "specifications":{},
                 "description":"Имеет пять способов разблокировки: по отпечатку пальца, с помощью ключ-карты, ввода пароля, механического ключа или через мобильное приложение.\n\nОснащен полупроводниковым датчиком отпечатка пальца со скоростью срабатывания менее 0,5 секунды. Специальная антивандальная конструкция делает замок взломостойким даже при сносе лицевой панели, а предохранительный ригель обеспечивает дополнительную защиту.\n\nКомплектация\n- Наружная панель замка\n- Внутренняя панель замка\n- Врезной замок\n- Личинка\n- Ответная планка\n- Механический ключ (2 шт.)\n- Ключ-карта (2 шт.)\n- Комплект креплений\n- Схема монтажных отверстий\n- Инструкция",
@@ -363,7 +340,7 @@ let products = [
     {
         "id":76,
         "name":"Умный замок премиум-класса KEYWAY SL500",
-        "price":47700.0,
+        "price":38800.0,
         "image":"https://static.tildacdn.com/stor3466-6330-4939-a461-353530623633/88944724.jpg",
         "category":"lock",
         "description":"Получите персональный промокод на скидку 30%",
@@ -5016,7 +4993,7 @@ let products = [
         ]
     }
 ]
-; // Предполагается, что товары будут загружены отдельно
+;
 
 // --- Состояние ---
 let cart = [];
@@ -5042,8 +5019,8 @@ const discontValue = document.getElementById('discontValue');
 // --- Новые DOM элементы для формы корзины ---
 // Переключатель
 const orderTypeToggle = document.getElementById('orderTypeToggle');
-const kpLabel = document.getElementById('kpLabel');
-const orderLabel = document.getElementById('orderLabel');
+//const kpLabel = document.getElementById('kpLabel');
+//const orderLabel = document.getElementById('orderLabel');
 // Секция полей заказа
 const orderFieldsSection = document.getElementById('orderFieldsSection');
 // Кнопки
@@ -5069,7 +5046,6 @@ const legalInfoContainer = document.getElementById('legalInfoContainer');
 
 // --- НОВЫЕ DOM элементы для чекбокса "Заполнить по прошлому заказу" и контейнеров ---
 const usePreviousOrderCheckbox = document.getElementById('usePreviousOrderCheckbox');
-const HelpManagerNeed = document.getElementById('HelpManagerNeed');
 
 // --- Новые DOM элементы для полей КП ---
 const kpFieldsSection = document.getElementById('kpFieldsSection');
@@ -5202,11 +5178,11 @@ function handleDeliveryMethodChange() {
         }
         deliveryAddressSection.style.display = 'block'; // Показываем само поле адреса
         if (selectedMethod === 'pickup_point') {
-            deliveryAddressNote.textContent = 'Введите адрес пункта выдачи Сдек или Яндекс.';
+            deliveryAddressNote.textContent = 'Введите адрес пункта выдачи Сдек или Яндекс вместе с городом.';
         } else {
             deliveryAddressNote.textContent = '';
         }
-        deliveryAddress.placeholder = selectedMethod === 'courier' ? 'Введите адрес доставки' : 'Введите адрес пункта выдачи';
+        deliveryAddress.placeholder = selectedMethod === 'courier' ? 'Введите адрес доставки с указанием города' : 'Введите адрес пункта выдач с указанием города';
         deliveryAddress.value = '';
     } else if (selectedMethod === 'pickup') {
         // Проверяем, не скрыт ли контейнер из-за чекбокса
@@ -5245,28 +5221,34 @@ function handlePaymentMethodChange() {
 
 // --- Обработчик изменения переключателя КП/Заказ ---
 function handleOrderTypeToggleChange() {
-    if (orderTypeToggle.checked) {
+    const selectedOrderMethod = orderTypeToggle.value;
+    if (selectedOrderMethod === 'orderLabel') {
         // Если переключено в положение "Оформить заказ"
         orderFieldsSection.style.display = 'block';
         kpFieldsSection.style.display = 'none'; // Скрываем поля КП
         generateKpButton.style.display = 'none';
         checkoutButton.style.display = 'block';
         // Меняем стили меток
-        kpLabel.style.fontWeight = 'normal';
-        kpLabel.style.color = 'var(--tg-theme-hint-color)';
-        orderLabel.style.fontWeight = 'bold';
-        orderLabel.style.color = 'var(--tg-theme-text-color)';
-    } else {
+//        kpLabel.style.fontWeight = 'normal';
+//        kpLabel.style.color = 'var(--tg-theme-hint-color)';
+//        orderLabel.style.fontWeight = 'bold';
+//        orderLabel.style.color = 'var(--tg-theme-text-color)';
+    } else if  (selectedOrderMethod === 'kpLabel') {
         // Если переключено в положение "Сформировать КП"
         orderFieldsSection.style.display = 'none';
         kpFieldsSection.style.display = 'block'; // Показываем поля КП
         generateKpButton.style.display = 'block';
         checkoutButton.style.display = 'none';
         // Меняем стили меток
-        kpLabel.style.fontWeight = 'bold';
-        kpLabel.style.color = 'var(--tg-theme-text-color)';
-        orderLabel.style.fontWeight = 'normal';
-        orderLabel.style.color = 'var(--tg-theme-hint-color)';
+//        kpLabel.style.fontWeight = 'bold';
+//        kpLabel.style.color = 'var(--tg-theme-text-color)';
+//        orderLabel.style.fontWeight = 'normal';
+//        orderLabel.style.color = 'var(--tg-theme-hint-color)';
+    } else {
+        kpFieldsSection.style.display = 'none'; // Скрываем все поля
+        generateKpButton.style.display = 'none';
+        orderFieldsSection.style.display = 'none';
+        checkoutButton.style.display = 'none';
     }
     resetCartFormFields();
 }
@@ -5671,7 +5653,7 @@ closeModal.addEventListener('click', (e) => {
 
 // --- Сброс формы корзины ---
 function resetCartForm() {
-    orderTypeToggle.checked = false;
+    orderTypeToggle.value = "empty";
     handleOrderTypeToggleChange();
     resetCartFormFields();
     document.querySelector('input[name="discountType"][value="discount_only"]').checked = true;
@@ -6002,11 +5984,11 @@ function handleCheckout(e) {
     // Подготавливаем данные заказа для отправки
     const orderPayload = {
         type: "order", // Тип запроса
-        usePreviousOrder: usePreviousOrderCheckbox.checked,
         bonuses: urlParams.bonuses, // Бонусы из URL
         userId: urlParams.userId,   // ID пользователя из URL
         discont: urlParams.discont, // Скидка из URL
         discountType: getSelectedDiscountType(), // Выбранный тип скидки
+        usePreviousOrder: usePreviousOrderCheckbox.checked, // Значение чекбокса заполнить по прошлому заказу
         items: cart.map(item => ({
             productId: item.productId,
             modificationId: item.modificationId,
